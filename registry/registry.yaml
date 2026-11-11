@@ -1,0 +1,150 @@
+# One_Man_Army registry: the single source of truth.
+# journey/ and departments/ are GENERATED from this file by scripts/build_views.py.
+# Edit this file, run `python scripts/build_views.py`, commit both.
+version: 1
+
+stages:
+  - id: 00-idea
+    name: Idea
+    purpose: Turn a vague idea into a one-page statement of who it is for, what problem it solves and how it earns money.
+    exit_gate: You can state customer, problem, offer and revenue model in four sentences, and name the three riskiest assumptions.
+  - id: 01-validate
+    name: Validate
+    purpose: Test demand, market, pricing and economics with real evidence before spending money.
+    exit_gate: Go / adjust / stop decided against criteria written down before the research or interviews started.
+  - id: 02-foundation
+    name: Foundation
+    purpose: Set up the legal entity, banking, tax, data protection, contracts and basic financial controls.
+    exit_gate: Entity registered, bank account open, required licences and data registrations filed or scheduled, lawyer and accountant engaged.
+  - id: 03-build
+    name: Build
+    purpose: Build the product on a repeatable engineering pipeline (source control, CI/CD, security, observability) with agents doing the routine work.
+    exit_gate: A deployable product with automated tests, a release pipeline and no secrets in the repo.
+  - id: 04-launch
+    name: Launch
+    purpose: Brand, website, SEO/GEO, go-to-market, first customers and first partnerships.
+    exit_gate: First paying customers and a measured acquisition channel with known cost per customer.
+  - id: 05-raise
+    name: Raise
+    purpose: Research investors, build the deck and data room, run outreach and manage a fundraising process.
+    exit_gate: A funded round closed, or a documented decision to bootstrap instead.
+  - id: 06-operate
+    name: Operate
+    purpose: "Run the company with Fortune-500 cadences: OKRs, dashboards, board reporting, risk register, recurring research."
+    exit_gate: Weekly and monthly operating rhythm running without founder heroics; metrics reviewed on a schedule.
+  - id: 07-scale
+    name: Scale
+    purpose: Add markets, hires, partners and systems without breaking what works.
+    exit_gate: Repeatable playbooks for hiring, new-market entry and customer onboarding.
+
+domains:
+  - id: strategy
+    name: Strategy & research
+  - id: legal-compliance
+    name: Legal & compliance
+  - id: finance
+    name: Finance
+  - id: product-eng
+    name: Product, engineering & CI/CD
+  - id: agents-automation
+    name: Agents & automation
+  - id: brand-seo
+    name: Brand & SEO
+  - id: sales-gtm
+    name: Sales & go-to-market
+  - id: investor-fundraising
+    name: Investors & fundraising
+  - id: networking
+    name: Networking & partnerships
+  - id: operations
+    name: Operations
+
+# kind: skill (lives in skills/<id>/) | external (pinned third-party repo) | agent | template | playbook
+entries:
+  - id: country-business-research
+    kind: skill
+    path: skills/country-business-research
+    stage: 01-validate
+    domains: [strategy, networking, legal-compliance]
+    summary: Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board.
+    last_verified: 2026-11-11
+
+  - id: customer-discovery-interviews
+    kind: skill
+    path: skills/customer-discovery-interviews
+    stage: 01-validate
+    domains: [strategy, sales-gtm]
+    summary: Interview guides and a go / adjust / stop gate to test demand and price before building.
+    last_verified: 2026-11-11
+
+  - id: unit-economics-model
+    kind: skill
+    path: skills/unit-economics-model
+    stage: 01-validate
+    domains: [finance, strategy]
+    summary: Per-unit and annual economics, break-even, capital needs and sensitivity cases.
+    last_verified: 2026-11-11
+
+  - id: data-protection-readiness
+    kind: skill
+    path: skills/data-protection-readiness
+    stage: 02-foundation
+    domains: [legal-compliance]
+    summary: Country-specific data-controller registration, consent, retention and breach-response checklist.
+    last_verified: 2026-11-11
+
+  - id: secret-exposure-response
+    kind: skill
+    path: skills/secret-exposure-response
+    stage: 03-build
+    domains: [product-eng, legal-compliance]
+    summary: "Handles pasted API keys and passwords: flag, advise rotation, never use or repeat."
+    last_verified: 2026-11-11
+
+  - id: founder-outreach-drafts
+    kind: skill
+    path: skills/founder-outreach-drafts
+    stage: 04-launch
+    domains: [networking, sales-gtm, investor-fundraising]
+    summary: Short outreach messages in the founder's voice with one clear ask; drafts only.
+    last_verified: 2026-11-11
+
+  - id: long-form-report-builder
+    kind: skill
+    path: skills/long-form-report-builder
+    stage: 06-operate
+    domains: [strategy, operations]
+    summary: "Staged, sourced long documents: outline, research, fill, verify."
+    last_verified: 2026-11-11
+
+  - id: recurring-research-digest
+    kind: skill
+    path: skills/recurring-research-digest
+    stage: 06-operate
+    domains: [strategy, operations]
+    summary: A standing research report; one new sourced item per run, never repeated.
+    last_verified: 2026-11-11
+
+  - id: artifact-project-dashboard
+    kind: skill
+    path: skills/artifact-project-dashboard
+    stage: 06-operate
+    domains: [operations]
+    summary: Private one-page project dashboard driven by a single JSON block.
+    last_verified: 2026-11-11
+
+  - id: scheduled-artifact-refresh
+    kind: skill
+    path: skills/scheduled-artifact-refresh
+    stage: 06-operate
+    domains: [operations, agents-automation]
+    summary: Scheduled task that refreshes only a page's data block, validates and republishes it.
+    last_verified: 2026-11-11
+
+  - id: deadline-calendar-sync
+    kind: skill
+    path: skills/deadline-calendar-sync
+    stage: 06-operate
+    domains: [operations]
+    summary: All-day calendar deadlines linked to the document or card they belong to.
+    last_verified: 2026-11-11
