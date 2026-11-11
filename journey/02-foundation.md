@@ -10,6 +10,24 @@
 
 ## Tools for this stage
 
-| Name | Kind | What it does |
-|---|---|---|
-| [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [compliance-os](https://github.com/alirezarezvani/claude-skills) | external | Meta-orchestrator for multi-framework compliance programmes. | MIT; 29,633 stars; has helper scripts |
+| [finance-skills](https://github.com/alirezarezvani/claude-skills) | external | Financial analyst skills: ratios, DCF valuation, budgeting and forecasting. | MIT; 29,633 stars; has helper scripts |
+| [general-counsel-advisor](https://github.com/alirezarezvani/claude-skills) | external | General Counsel advisory for startups with a contract risk scanner. | MIT; 29,633 stars; has helper scripts |
+| [hr-legal-compliance](https://github.com/wshobson/agents) | external | HR policy, employment contract and GDPR/SOC2/HIPAA compliance templates. | MIT; 42,414 stars |
+| [security-compliance](https://github.com/wshobson/agents) | external | SOC2, HIPAA and GDPR compliance validation and checklists. | MIT; 42,414 stars |
+| [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. | in this repo |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install compliance-os@one-man-army
+/plugin install finance-skills@one-man-army
+/plugin install general-counsel-advisor@one-man-army
+/plugin install hr-legal-compliance@one-man-army
+/plugin install security-compliance@one-man-army
+```

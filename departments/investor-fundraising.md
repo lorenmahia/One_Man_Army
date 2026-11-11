@@ -4,8 +4,30 @@
 
 [all departments](./README.md)
 
+### 03-build Build
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [ecc](https://github.com/affaan-m/ECC) | external | Agent harness with hundreds of skills, including investor-materials, investor-outreach, seo, market-research and deployment-patterns. | MIT; 301,099 stars; **REVIEW: includes hooks, mcp-server** |
+
 ### 04-launch Launch
 
-| Name | Kind | What it does |
-|---|---|---|
-| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+
+### 05-raise Raise
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [pptx-deck-creation](https://github.com/wshobson/agents) | external | Spec-first workflow for editable, production-ready PowerPoint decks. | MIT; 42,414 stars; has helper scripts |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install ecc@one-man-army
+/plugin install pptx-deck-creation@one-man-army
+```

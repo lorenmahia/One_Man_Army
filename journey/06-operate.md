@@ -10,10 +10,30 @@
 
 ## Tools for this stage
 
-| Name | Kind | What it does |
-|---|---|---|
-| [artifact-project-dashboard](../skills/artifact-project-dashboard/) | skill | Private one-page project dashboard driven by a single JSON block. |
-| [deadline-calendar-sync](../skills/deadline-calendar-sync/) | skill | All-day calendar deadlines linked to the document or card they belong to. |
-| [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. |
-| [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. |
-| [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [business-analytics](https://github.com/wshobson/agents) | external | Business metrics, KPI tracking and financial reporting. | MIT; 42,414 stars |
+| [business-operations-skills](https://github.com/alirezarezvani/claude-skills) | external | BizOps: process mapping, bottleneck analysis and operating cadences. | MIT; 29,633 stars; has helper scripts |
+| [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
+| [c-level-skills](https://github.com/alirezarezvani/claude-skills) | external | 33 C-level advisory skills. | MIT; 29,633 stars; **REVIEW: includes hooks** |
+| [pm-skills](https://github.com/alirezarezvani/claude-skills) | external | 9 project management skills with tools. | MIT; 29,633 stars; **REVIEW: includes mcp-server** |
+| [research-ops-skills](https://github.com/alirezarezvani/claude-skills) | external | Cross-functional research operations. | MIT; 29,633 stars; has helper scripts |
+| [artifact-project-dashboard](../skills/artifact-project-dashboard/) | skill | Private one-page project dashboard driven by a single JSON block. | in this repo |
+| [deadline-calendar-sync](../skills/deadline-calendar-sync/) | skill | All-day calendar deadlines linked to the document or card they belong to. | in this repo |
+| [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
+| [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
+| [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install business-analytics@one-man-army
+/plugin install business-operations-skills@one-man-army
+/plugin install c-level-agents@one-man-army
+/plugin install c-level-skills@one-man-army
+/plugin install pm-skills@one-man-army
+/plugin install research-ops-skills@one-man-army
+```

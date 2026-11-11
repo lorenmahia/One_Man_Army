@@ -29,12 +29,14 @@ def frontmatter(path):
     m = re.match(r"---\r?\n(.*?)\r?\n---", text, re.S)
     if not m:
         return None
-    fm = {}
-    for key in ("name", "description"):
-        km = re.search(rf"^{key}:\s*(.+)$", m.group(1), re.M)
-        if km:
-            fm[key] = km.group(1).strip()
-    return fm
+    try:
+        fm = yaml.safe_load(m.group(1))
+    except yaml.YAMLError as exc:
+        # Claude Code drops ALL frontmatter fields when this fails, so the skill would never trigger.
+        err(f"{path.relative_to(ROOT)}: frontmatter is not valid YAML "
+            f"(quote values containing ': '): {str(exc).splitlines()[0]}")
+        return {}
+    return fm if isinstance(fm, dict) else {}
 
 
 def check_registry():
@@ -46,7 +48,8 @@ def check_registry():
     if len(set(domain_ids)) != len(domain_ids):
         err("duplicate domain ids")
     seen = set()
-    required = ("id", "kind", "stage", "domains", "summary", "last_verified")
+    plugin_names = set()
+    required =("id", "kind", "stage", "domains", "summary", "last_verified")
     kinds = {"skill", "agent", "template", "playbook", "external"}
     for e in reg["entries"]:
         eid = e.get("id", "<missing id>")
@@ -71,11 +74,26 @@ def check_registry():
                     err(f"[{eid}] external entry missing '{f}'")
             if e.get("mode") not in ("marketplace", "link-only"):
                 err(f"[{eid}] mode must be marketplace or link-only")
+            if not isinstance(e.get("stars"), int):
+                err(f"[{eid}] stars must be an integer")
+            for lf in ("includes", "runs_code"):
+                if lf in e and not isinstance(e[lf], list):
+                    err(f"[{eid}] {lf} must be a list")
+            if not re.fullmatch(r"[\w.-]+/[\w.-]+", str(e.get("source", ""))):
+                err(f"[{eid}] source must look like owner/repo")
             if e.get("mode") == "marketplace":
                 if not re.fullmatch(r"[0-9a-f]{40}", str(e.get("sha", ""))):
                     err(f"[{eid}] marketplace entries need a full 40-char sha")
                 if e.get("license") in (None, "none-reported", "NOASSERTION"):
                     err(f"[{eid}] unlicensed repos must be link-only")
+                if not e.get("plugin"):
+                    err(f"[{eid}] marketplace entries need a plugin name")
+                elif e["plugin"] in plugin_names or e["plugin"] == "one-man-army":
+                    err(f"[{eid}] duplicate plugin name {e['plugin']!r}")
+                else:
+                    plugin_names.add(e["plugin"])
+            elif e.get("sha") or e.get("plugin"):
+                err(f"[{eid}] link-only entries must not carry a sha or plugin name")
         else:
             p = e.get("path")
             if not p or not (ROOT / p).exists():

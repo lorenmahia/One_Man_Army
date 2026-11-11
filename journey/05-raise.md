@@ -10,4 +10,15 @@
 
 ## Tools for this stage
 
-_Nothing registered yet._
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [pptx-deck-creation](https://github.com/wshobson/agents) | external | Spec-first workflow for editable, production-ready PowerPoint decks. | MIT; 42,414 stars; has helper scripts |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install pptx-deck-creation@one-man-army
+```

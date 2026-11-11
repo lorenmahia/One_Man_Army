@@ -6,12 +6,13 @@
 
 ### 01-validate Validate
 
-| Name | Kind | What it does |
-|---|---|---|
-| [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. | in this repo |
 
 ### 04-launch Launch
 
-| Name | Kind | What it does |
-|---|---|---|
-| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+

@@ -19,10 +19,10 @@ python scripts/validate.py
 
 External repos are **referenced and pinned**, never copied.
 
-1. Read its README, licence and file tree. Skim any skill or hook you will recommend, since they run with the user's permissions.
-2. Get the current full commit SHA: `gh api repos/<owner>/<repo>/commits/HEAD --jq .sha`.
-3. Add a `kind: external` entry with `source`, `mode`, `sha`, `license`, `stars`, `why`. Use `mode: link-only` if the licence is missing or unclear.
-4. Regenerate and validate as above.
+1. Read its README, licence and file tree. Read any hook (`hooks/`, `hooks.json`) or MCP server (`.mcp.json`) you will recommend, since they run with the user's permissions. Method and limits: [EXTERNAL-REVIEW.md](./EXTERNAL-REVIEW.md).
+2. Get the current full commit SHA: `gh api repos/<owner>/<repo>/commits/<default-branch> --jq .sha`.
+3. Add a `kind: external` entry with `source`, `mode`, `license`, `stars`, `stage`, `domains`, `summary`, `why`. For `mode: marketplace` also add `plugin`, `sha` and, if the plugin sits in a subfolder, `subdir`. Record `includes` and `runs_code` from your review. Use `mode: link-only` if the licence is missing or unclear, or if the repo is not a Claude plugin.
+4. Regenerate (this rewrites `.claude-plugin/marketplace.json`) and validate as above, then run `claude plugin validate .`.
 
 ## Rules
 

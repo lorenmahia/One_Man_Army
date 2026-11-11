@@ -4,8 +4,38 @@
 
 [all departments](./README.md)
 
+### 00-idea Idea
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | external | Curated list of Claude Skills. | none-reported; 79,249 stars; link-only (not installable here) |
+
+### 03-build Build
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | external | Curated list of Claude Code resources. | NOASSERTION; 57,760 stars; link-only (not installable here) |
+| [cicd-automation](https://github.com/wshobson/agents) | external | CI/CD pipeline configuration, GitHub Actions workflows and automated deployment. | MIT; 42,414 stars |
+| [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | external | Anthropic-managed directory of Claude Code plugins. | Apache-2.0; 46,860 stars; link-only (not installable here) |
+| [ecc](https://github.com/affaan-m/ECC) | external | Agent harness with hundreds of skills, including investor-materials, investor-outreach, seo, market-research and deployment-patterns. | MIT; 301,099 stars; **REVIEW: includes hooks, mcp-server** |
+| [superpowers](https://github.com/obra/superpowers) | external | Agentic skills framework and development methodology (plan, TDD, review). | MIT; 316,068 stars; **REVIEW: includes hooks** |
+| [voltagent-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | external | 100+ specialised Claude Code subagents. | MIT; 26,484 stars; link-only (not installable here) |
+
 ### 06-operate Operate
 
-| Name | Kind | What it does |
-|---|---|---|
-| [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
+| [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install c-level-agents@one-man-army
+/plugin install cicd-automation@one-man-army
+/plugin install ecc@one-man-army
+/plugin install superpowers@one-man-army
+```

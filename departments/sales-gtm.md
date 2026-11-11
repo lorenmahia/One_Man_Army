@@ -6,12 +6,30 @@
 
 ### 01-validate Validate
 
-| Name | Kind | What it does |
-|---|---|---|
-| [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
 
 ### 04-launch Launch
 
-| Name | Kind | What it does |
-|---|---|---|
-| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [business-growth-skills](https://github.com/alirezarezvani/claude-skills) | external | Customer success, sales engineering and revenue operations. | MIT; 29,633 stars; has helper scripts |
+| [commercial-skills](https://github.com/alirezarezvani/claude-skills) | external | Per-deal commercial skills including pricing strategy. | MIT; 29,633 stars; has helper scripts |
+| [content-marketing](https://github.com/wshobson/agents) | external | Content marketing strategy, web research and synthesis. | MIT; 42,414 stars |
+| [customer-sales-automation](https://github.com/wshobson/agents) | external | Support workflow automation, sales pipeline management and email campaigns. | MIT; 42,414 stars |
+| [marketing-skills](https://github.com/alirezarezvani/claude-skills) | external | 47 marketing skills across content, SEO/AEO, CRO, channels, growth and sales enablement. | MIT; 29,633 stars; **REVIEW: includes hooks** |
+| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install business-growth-skills@one-man-army
+/plugin install commercial-skills@one-man-army
+/plugin install content-marketing@one-man-army
+/plugin install customer-sales-automation@one-man-army
+/plugin install marketing-skills@one-man-army
+```

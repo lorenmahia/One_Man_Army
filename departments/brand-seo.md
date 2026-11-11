@@ -4,4 +4,43 @@
 
 [all departments](./README.md)
 
-_Nothing registered yet._
+### 03-build Build
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [ecc](https://github.com/affaan-m/ECC) | external | Agent harness with hundreds of skills, including investor-materials, investor-outreach, seo, market-research and deployment-patterns. | MIT; 301,099 stars; **REVIEW: includes hooks, mcp-server** |
+
+### 04-launch Launch
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [anthropic-skills](https://github.com/anthropics/skills) | external | Anthropic's reference skills (documents, spreadsheets, presentations, PDFs). | none-reported; 192,876 stars; link-only (not installable here) |
+| [awesome-seo](https://github.com/i365dev/awesome-seo) | external | Curated SEO, GEO and AI-search resources. | MIT; 2,852 stars; link-only (not installable here) |
+| [brand-landingpage](https://github.com/wshobson/agents) | external | Brand discovery through iterative design to a deployment-ready landing page. | MIT; 42,414 stars |
+| [content-marketing](https://github.com/wshobson/agents) | external | Content marketing strategy, web research and synthesis. | MIT; 42,414 stars |
+| [marketing-skills](https://github.com/alirezarezvani/claude-skills) | external | 47 marketing skills across content, SEO/AEO, CRO, channels, growth and sales enablement. | MIT; 29,633 stars; **REVIEW: includes hooks** |
+| [seo-analysis-monitoring](https://github.com/wshobson/agents) | external | Content freshness, cannibalization detection and authority building. | MIT; 42,414 stars |
+| [seo-content-creation](https://github.com/wshobson/agents) | external | SEO content writing, planning and E-E-A-T quality auditing. | MIT; 42,414 stars |
+| [seo-technical-optimization](https://github.com/wshobson/agents) | external | Technical SEO: meta tags, keywords, structure and featured snippets. | MIT; 42,414 stars |
+
+### 05-raise Raise
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [pptx-deck-creation](https://github.com/wshobson/agents) | external | Spec-first workflow for editable, production-ready PowerPoint decks. | MIT; 42,414 stars; has helper scripts |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install brand-landingpage@one-man-army
+/plugin install content-marketing@one-man-army
+/plugin install ecc@one-man-army
+/plugin install marketing-skills@one-man-army
+/plugin install pptx-deck-creation@one-man-army
+/plugin install seo-analysis-monitoring@one-man-army
+/plugin install seo-content-creation@one-man-army
+/plugin install seo-technical-optimization@one-man-army
+```

@@ -1,6 +1,6 @@
 ---
 name: long-form-report-builder
-description: Build a long, sourced document in stages: scaffold the outline as pending sections, research, then fill each section and verify it. Use for multi-section reports, market analyses, or any writing too long to produce in one pass.
+description: "Build a long, sourced document in stages: scaffold the outline as pending sections, research, then fill each section and verify it. Use for multi-section reports, market analyses, or any writing too long to produce in one pass."
 ---
 
 # Long-form report builder
