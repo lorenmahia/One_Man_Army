@@ -6,6 +6,24 @@ Each skill is a self-contained folder that teaches Claude one job a company norm
 
 > Research and planning support only. Nothing here is legal, tax, investment, or financial advice.
 
+## Choose how you want to build
+
+Everything in this repo is tagged once in a single [registry](./registry/registry.yaml) and shown two ways. Pick the lens that suits you; both always agree.
+
+| If you want... | Start here |
+|---|---|
+| **A step-by-step path from zero.** Eight stages (Idea → Validate → Foundation → Build → Launch → Raise → Operate → Scale), each with an exit gate. | [**Journey**](./journey/README.md) |
+| **To jump to a function.** Strategy, legal, finance, engineering and CI/CD, agents, brand and SEO, sales, investors, networking, operations. | [**Departments**](./departments/README.md) |
+
+How it works, and how to add to it: [Architecture](./docs/ARCHITECTURE.md) · [Contributing](./docs/CONTRIBUTING.md).
+
+### Roadmap
+
+- [x] Registry, generated Journey and Departments views, CI validation
+- [ ] External bundle: pinned, licence-checked references to ECC, claude-skills, wshobson/agents, spec-kit and others via a plugin marketplace
+- [ ] `start-here` onboarding skill that asks which lens you prefer and builds your plan
+- [ ] Sourced deep-research playbooks, starting with fundraising and investor approach, CI/CD, and SEO/GEO
+
 ## Skills
 
 ### Research & validation
@@ -55,10 +73,13 @@ artifact-project-dashboard ◄── scheduled-artifact-refresh
 ## Repository layout
 
 ```
-skills/
-  <skill-name>/
-    SKILL.md     # instructions Claude follows (YAML frontmatter: name, description)
-    README.md    # human overview: when to use, outputs, install
+registry/registry.yaml   # source of truth: every skill and external repo, tagged by stage and domain
+skills/<skill-name>/
+  SKILL.md               # instructions Claude follows (YAML frontmatter: name, description)
+  README.md              # human overview: when to use, outputs, install
+journey/  departments/   # GENERATED views of the registry (do not edit by hand)
+scripts/                 # build_views.py, validate.py
+docs/                    # ARCHITECTURE.md, CONTRIBUTING.md
 ```
 
 ## Installing a skill
