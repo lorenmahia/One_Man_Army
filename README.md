@@ -1,17 +1,69 @@
 # One_Man_Army
-One Many Company Creation
 
-A toolkit of Claude skills for building and running a company as a one-person team.
+**One-person company creation: a toolkit of Claude skills that lets a solo founder research, validate, plan, launch and run a business like a full team.**
+
+Each skill is a self-contained folder that teaches Claude one job a company normally hires for: market research, customer discovery, financial modelling, compliance, outreach, reporting, and keeping it all on schedule. Install the ones you need, or all of them.
+
+> Research and planning support only. Nothing here is legal, tax, investment, or financial advice.
 
 ## Skills
 
-| Skill | Description |
+### Research & validation
+
+| Skill | What it does |
 |---|---|
 | [country-business-research](./skills/country-business-research/) | Turns "I want to run this business in that country" into a sourced market report (competitors, macro and valuations, a demand verdict, six stakeholder viewpoints, niches, key people, company setup routes) plus a dated project board, with optional meetings, alerts, and a recurring refresh. |
+| [customer-discovery-interviews](./skills/customer-discovery-interviews/) | Interview guides, a short question script, and a go / adjust / stop gate, so you learn whether people will pay before you build. |
+| [unit-economics-model](./skills/unit-economics-model/) | Turns price, volume, fee, loss and cost assumptions into per-unit and annual economics, break-even, capital needs and sensitivity cases. |
+| [recurring-research-digest](./skills/recurring-research-digest/) | A standing report every few days or weeks: one new sourced item per run, never repeated, with a research brief, contacts and a deadline. |
+| [long-form-report-builder](./skills/long-form-report-builder/) | Builds long, sourced documents in stages (outline, research, fill, verify) so they don't drift or lose sources. |
+
+### Compliance & security
+
+| Skill | What it does |
+|---|---|
+| [data-protection-readiness](./skills/data-protection-readiness/) | Country-specific checklist for data-controller registration, consent, retention and breach response, linked to the regulator. |
+| [secret-exposure-response](./skills/secret-exposure-response/) | When an API key or password is pasted into chat, flags it calmly, advises rotation, and never uses or repeats it. |
+
+### Outreach
+
+| Skill | What it does |
+|---|---|
+| [founder-outreach-drafts](./skills/founder-outreach-drafts/) | Short outreach messages in your saved voice with one clear ask each. Drafts only; never sent without approval. |
+
+### Operations & dashboards
+
+| Skill | What it does |
+|---|---|
+| [artifact-project-dashboard](./skills/artifact-project-dashboard/) | A private one-page project dashboard with cards, deadlines, an Ask Claude box and voice input, driven by a single JSON block. |
+| [scheduled-artifact-refresh](./skills/scheduled-artifact-refresh/) | A scheduled task that rewrites only a page's data block, validates it, republishes it, and notifies you only for near deadlines or failures. |
+| [deadline-calendar-sync](./skills/deadline-calendar-sync/) | All-day calendar deadlines linked to the document or card they belong to, kept in step when dates change. |
+
+## How they fit together
+
+```
+country-business-research ──► customer-discovery-interviews ──► unit-economics-model
+          │                                                            │
+          ├──► founder-outreach-drafts                                 ▼
+          ├──► data-protection-readiness                    go / adjust / stop
+          ▼
+artifact-project-dashboard ◄── scheduled-artifact-refresh
+          │
+          └──► deadline-calendar-sync ◄── recurring-research-digest ◄── long-form-report-builder
+```
+
+## Repository layout
+
+```
+skills/
+  <skill-name>/
+    SKILL.md     # instructions Claude follows (YAML frontmatter: name, description)
+    README.md    # human overview: when to use, outputs, install
+```
 
 ## Installing a skill
 
-Each skill lives in its own folder under `skills/` with a `SKILL.md` (the instructions Claude follows) and a `README.md` (for people).
-
-- **Claude Code:** `cp -r skills/<skill-name> ~/.claude/skills/`, then restart Claude Code.
+- **Claude Code:** `cp -r skills/<skill-name> ~/.claude/skills/`, then restart Claude Code. To install everything: `cp -r skills/* ~/.claude/skills/`
 - **Claude.ai / Desktop:** zip the skill folder and upload it under **Settings → Capabilities → Skills**.
+
+Skills load automatically when a request matches their description; you don't need to name them.
