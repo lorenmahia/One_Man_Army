@@ -30,10 +30,16 @@ That installs the skills in this repo. The same marketplace also lists **31 pinn
 
 - [x] Registry, generated Journey and Departments views, CI validation
 - [x] External bundle: pinned, licence-checked references to ECC, claude-skills, wshobson/agents, superpowers and others via a plugin marketplace (spec-kit and awesome-lists are link-only)
-- [ ] `start-here` onboarding skill that asks which lens you prefer and builds your plan
+- [x] [`start-here`](./skills/start-here/) onboarding skill that asks which lens you prefer and builds your plan
 - [ ] Sourced deep-research playbooks, starting with fundraising and investor approach, CI/CD, and SEO/GEO
 
 ## Skills
+
+### Start here
+
+| Skill | What it does |
+|---|---|
+| [start-here](./skills/start-here/) | The front door. Asks whether you want a step-by-step Journey or a Departments view, then builds a dated plan with the right skills and pinned plugins for your stage. |
 
 ### Research & validation
 

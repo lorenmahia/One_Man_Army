@@ -61,6 +61,14 @@ domains:
 
 # kind: skill (lives in skills/<id>/) | external (pinned third-party repo) | agent | template | playbook
 entries:
+  - id: start-here
+    kind: skill
+    path: skills/start-here
+    stage: 00-idea
+    domains: [strategy, operations]
+    summary: Onboarding front door. The founder picks a Journey or Departments view and gets a dated plan with the right skills and pinned plugins.
+    last_verified: 2026-11-11
+
   - id: country-business-research
     kind: skill
     path: skills/country-business-research
