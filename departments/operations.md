@@ -4,6 +4,12 @@
 
 [all departments](./README.md)
 
+### 00-idea Idea
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [start-here](../skills/start-here/) | skill | Onboarding front door. The founder picks a Journey or Departments view and gets a dated plan with the right skills and pinned plugins. | in this repo |
+
 ### 02-foundation Foundation
 
 | Name | Kind | What it does | Notes |
