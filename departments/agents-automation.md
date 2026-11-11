@@ -25,8 +25,8 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
-| [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
 | [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
+| [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
 
 ## Install
 

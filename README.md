@@ -31,7 +31,8 @@ That installs the skills in this repo. The same marketplace also lists **31 pinn
 - [x] Registry, generated Journey and Departments views, CI validation
 - [x] External bundle: pinned, licence-checked references to ECC, claude-skills, wshobson/agents, superpowers and others via a plugin marketplace (spec-kit and awesome-lists are link-only)
 - [x] [`start-here`](./skills/start-here/) onboarding skill that asks which lens you prefer and builds your plan
-- [ ] Sourced deep-research playbooks, starting with fundraising and investor approach, CI/CD, and SEO/GEO
+- [x] Raise-stage playbooks: [investor landscape and approach](./playbooks/05-raise/investor-landscape-and-approach.md), [pitch deck and data room](./playbooks/05-raise/pitch-deck-and-data-room.md), [instruments, terms and process](./playbooks/05-raise/instruments-terms-and-process.md)
+- [ ] Playbooks for Build (CI/CD, security), Launch (SEO/GEO, go-to-market), Foundation, Operate, then skills distilled from them
 
 ## Skills
 

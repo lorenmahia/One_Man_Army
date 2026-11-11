@@ -12,6 +12,9 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
+| [investor-landscape-and-approach](../playbooks/05-raise/investor-landscape-and-approach.md) | playbook | Who funds early-stage startups, whether to raise at all, how to research investors from public sources and how to approach them. | in this repo |
+| [pitch-deck-and-data-room](../playbooks/05-raise/pitch-deck-and-data-room.md) | playbook | Pitch deck frameworks compared, a recommended slide order for a solo founder, the short live pitch, Q&A prep and data-room contents by stage. | in this repo |
 | [pptx-deck-creation](https://github.com/wshobson/agents) | external | Spec-first workflow for editable, production-ready PowerPoint decks. | MIT; 42,414 stars; has helper scripts |
 
 ## Install

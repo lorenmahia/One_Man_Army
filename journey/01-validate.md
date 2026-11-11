@@ -12,10 +12,10 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
-| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 | [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. | in this repo |
 | [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
 | [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
+| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 
 ## Install
 

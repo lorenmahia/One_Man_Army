@@ -8,29 +8,35 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [start-here](../skills/start-here/) | skill | Onboarding front door. The founder picks a Journey or Departments view and gets a dated plan with the right skills and pinned plugins. | in this repo |
 | [before-you-build](https://github.com/wshobson/agents) | external | Pre-build product risk review for founders before any implementation. | MIT; 42,414 stars |
 | [executive-mentor](https://github.com/alirezarezvani/claude-skills) | external | Adversarial thinking partner that stress-tests plans and prepares for board and investor questions. | MIT; 29,633 stars; has helper scripts |
 | [spec-kit](https://github.com/github/spec-kit) | external | Spec-driven development toolkit: write the spec first, then build. | MIT; 149,300 stars; link-only (not installable here) |
-| [start-here](../skills/start-here/) | skill | Onboarding front door. The founder picks a Journey or Departments view and gets a dated plan with the right skills and pinned plugins. | in this repo |
 
 ### 01-validate Validate
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
-| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 | [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. | in this repo |
 | [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
 | [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
+| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
+
+### 05-raise Raise
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [pitch-deck-and-data-room](../playbooks/05-raise/pitch-deck-and-data-room.md) | playbook | Pitch deck frameworks compared, a recommended slide order for a solo founder, the short live pitch, Q&A prep and data-room contents by stage. | in this repo |
 
 ### 06-operate Operate
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
+| [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
 | [c-level-skills](https://github.com/alirezarezvani/claude-skills) | external | 33 C-level advisory skills. | MIT; 29,633 stars; **REVIEW: includes hooks** |
 | [research-ops-skills](https://github.com/alirezarezvani/claude-skills) | external | Cross-functional research operations. | MIT; 29,633 stars; has helper scripts |
-| [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
-| [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 
 ## Install
 

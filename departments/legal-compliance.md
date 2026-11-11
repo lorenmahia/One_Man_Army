@@ -14,18 +14,24 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. | in this repo |
 | [compliance-os](https://github.com/alirezarezvani/claude-skills) | external | Meta-orchestrator for multi-framework compliance programmes. | MIT; 29,633 stars; has helper scripts |
 | [general-counsel-advisor](https://github.com/alirezarezvani/claude-skills) | external | General Counsel advisory for startups with a contract risk scanner. | MIT; 29,633 stars; has helper scripts |
 | [hr-legal-compliance](https://github.com/wshobson/agents) | external | HR policy, employment contract and GDPR/SOC2/HIPAA compliance templates. | MIT; 42,414 stars |
 | [security-compliance](https://github.com/wshobson/agents) | external | SOC2, HIPAA and GDPR compliance validation and checklists. | MIT; 42,414 stars |
-| [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. | in this repo |
 
 ### 03-build Build
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
-| [security-scanning](https://github.com/wshobson/agents) | external | SAST, dependency vulnerability scanning and OWASP Top 10 checks. | MIT; 42,414 stars |
 | [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
+| [security-scanning](https://github.com/wshobson/agents) | external | SAST, dependency vulnerability scanning and OWASP Top 10 checks. | MIT; 42,414 stars |
+
+### 05-raise Raise
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
 
 ## Install
 

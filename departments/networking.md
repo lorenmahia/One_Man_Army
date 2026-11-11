@@ -16,3 +16,9 @@
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
 
+### 05-raise Raise
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [investor-landscape-and-approach](../playbooks/05-raise/investor-landscape-and-approach.md) | playbook | Who funds early-stage startups, whether to raise at all, how to research investors from public sources and how to approach them. | in this repo |
+

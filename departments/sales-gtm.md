@@ -14,12 +14,12 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
 | [business-growth-skills](https://github.com/alirezarezvani/claude-skills) | external | Customer success, sales engineering and revenue operations. | MIT; 29,633 stars; has helper scripts |
 | [commercial-skills](https://github.com/alirezarezvani/claude-skills) | external | Per-deal commercial skills including pricing strategy. | MIT; 29,633 stars; has helper scripts |
 | [content-marketing](https://github.com/wshobson/agents) | external | Content marketing strategy, web research and synthesis. | MIT; 42,414 stars |
 | [customer-sales-automation](https://github.com/wshobson/agents) | external | Support workflow automation, sales pipeline management and email campaigns. | MIT; 42,414 stars |
 | [marketing-skills](https://github.com/alirezarezvani/claude-skills) | external | 47 marketing skills across content, SEO/AEO, CRO, channels, growth and sales enablement. | MIT; 29,633 stars; **REVIEW: includes hooks** |
-| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
 
 ## Install
 
