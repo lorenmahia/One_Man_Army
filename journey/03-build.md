@@ -10,6 +10,32 @@
 
 ## Tools for this stage
 
-| Name | Kind | What it does |
-|---|---|---|
-| [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | external | Curated list of Claude Code resources. | NOASSERTION; 57,760 stars; link-only (not installable here) |
+| [awesome-saas-boilerplates](https://github.com/xcomptek/awesome-saas-boilerplates) | external | List of SaaS boilerplates and starter kits. | none-reported; 3,086 stars; link-only (not installable here) |
+| [cicd-automation](https://github.com/wshobson/agents) | external | CI/CD pipeline configuration, GitHub Actions workflows and automated deployment. | MIT; 42,414 stars |
+| [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | external | Anthropic-managed directory of Claude Code plugins. | Apache-2.0; 46,860 stars; link-only (not installable here) |
+| [deployment-strategies](https://github.com/wshobson/agents) | external | Deployment patterns, rollback automation and infrastructure templates. | MIT; 42,414 stars |
+| [ecc](https://github.com/affaan-m/ECC) | external | Agent harness with hundreds of skills, including investor-materials, investor-outreach, seo, market-research and deployment-patterns. | MIT; 301,099 stars; **REVIEW: includes hooks, mcp-server** |
+| [engineering-skills](https://github.com/alirezarezvani/claude-skills) | external | 32 engineering skills: architecture, frontend, backend, QA, DevOps, security, AI/ML. | MIT; 29,633 stars; **REVIEW: includes hooks, mcp-server** |
+| [observability-monitoring](https://github.com/wshobson/agents) | external | Metrics, logging, tracing and SLO implementation. | MIT; 42,414 stars |
+| [security-scanning](https://github.com/wshobson/agents) | external | SAST, dependency vulnerability scanning and OWASP Top 10 checks. | MIT; 42,414 stars |
+| [superpowers](https://github.com/obra/superpowers) | external | Agentic skills framework and development methodology (plan, TDD, review). | MIT; 316,068 stars; **REVIEW: includes hooks** |
+| [voltagent-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | external | 100+ specialised Claude Code subagents. | MIT; 26,484 stars; link-only (not installable here) |
+| [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install cicd-automation@one-man-army
+/plugin install deployment-strategies@one-man-army
+/plugin install ecc@one-man-army
+/plugin install engineering-skills@one-man-army
+/plugin install observability-monitoring@one-man-army
+/plugin install security-scanning@one-man-army
+/plugin install superpowers@one-man-army
+```

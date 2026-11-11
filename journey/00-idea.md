@@ -10,4 +10,19 @@
 
 ## Tools for this stage
 
-_Nothing registered yet._
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | external | Curated list of Claude Skills. | none-reported; 79,249 stars; link-only (not installable here) |
+| [before-you-build](https://github.com/wshobson/agents) | external | Pre-build product risk review for founders before any implementation. | MIT; 42,414 stars |
+| [executive-mentor](https://github.com/alirezarezvani/claude-skills) | external | Adversarial thinking partner that stress-tests plans and prepares for board and investor questions. | MIT; 29,633 stars; has helper scripts |
+| [spec-kit](https://github.com/github/spec-kit) | external | Spec-driven development toolkit: write the spec first, then build. | MIT; 149,300 stars; link-only (not installable here) |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install before-you-build@one-man-army
+/plugin install executive-mentor@one-man-army
+```

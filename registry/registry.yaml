@@ -148,3 +148,610 @@ entries:
     domains: [operations]
     summary: All-day calendar deadlines linked to the document or card they belong to.
     last_verified: 2026-11-11
+
+  # ---- External references: pinned to a commit SHA, never copied (see docs/EXTERNAL-REVIEW.md) ----
+
+  - id: before-you-build
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: before-you-build
+    subdir: plugins/before-you-build
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 00-idea
+    domains: [strategy, product-eng]
+    summary: "Pre-build product risk review for founders before any implementation."
+    why: "Catches fatal product risks before money is spent."
+    includes: [1 skills]
+    last_verified: 2026-11-11
+
+  - id: executive-mentor
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: executive-mentor
+    subdir: c-level-advisor/executive-mentor
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 00-idea
+    domains: [strategy]
+    summary: "Adversarial thinking partner that stress-tests plans and prepares for board and investor questions."
+    why: "Founder-grade challenge to the idea."
+    includes: [6 skills, 1 agents]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: startup-business-analyst
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: startup-business-analyst
+    subdir: plugins/startup-business-analyst
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 01-validate
+    domains: [strategy, finance]
+    summary: "Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics."
+    why: "Complements the in-repo validation skills with sizing and modeling."
+    includes: [5 skills, 1 agents, 3 commands]
+    last_verified: 2026-11-11
+
+  - id: hr-legal-compliance
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: hr-legal-compliance
+    subdir: plugins/hr-legal-compliance
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 02-foundation
+    domains: [legal-compliance, operations]
+    summary: "HR policy, employment contract and GDPR/SOC2/HIPAA compliance templates."
+    why: "First-hire and policy paperwork."
+    includes: [2 skills, 2 agents]
+    last_verified: 2026-11-11
+
+  - id: security-compliance
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: security-compliance
+    subdir: plugins/security-compliance
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 02-foundation
+    domains: [legal-compliance, product-eng]
+    summary: "SOC2, HIPAA and GDPR compliance validation and checklists."
+    why: "Enterprise buyers ask for these early."
+    includes: [1 agents, 1 commands]
+    last_verified: 2026-11-11
+
+  - id: general-counsel-advisor
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: general-counsel-advisor
+    subdir: c-level-advisor/general-counsel-advisor
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 02-foundation
+    domains: [legal-compliance]
+    summary: "General Counsel advisory for startups with a contract risk scanner."
+    why: "Contract review before signing. Not legal advice."
+    includes: [1 skills]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: compliance-os
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: compliance-os
+    subdir: compliance-os
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 02-foundation
+    domains: [legal-compliance]
+    summary: "Meta-orchestrator for multi-framework compliance programmes."
+    why: "Structures compliance across frameworks."
+    includes: [9 skills, 8 agents]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: finance-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: finance-skills
+    subdir: finance
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 02-foundation
+    domains: [finance]
+    summary: "Financial analyst skills: ratios, DCF valuation, budgeting and forecasting."
+    why: "Fortune-500 style financial controls for a one-person company."
+    includes: [8 skills, 1 agents, 2 commands]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: cicd-automation
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: cicd-automation
+    subdir: plugins/cicd-automation
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 03-build
+    domains: [product-eng, agents-automation]
+    summary: "CI/CD pipeline configuration, GitHub Actions workflows and automated deployment."
+    why: "Core of the Build stage."
+    includes: [4 skills, 5 agents, 1 commands]
+    last_verified: 2026-11-11
+
+  - id: deployment-strategies
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: deployment-strategies
+    subdir: plugins/deployment-strategies
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 03-build
+    domains: [product-eng]
+    summary: "Deployment patterns, rollback automation and infrastructure templates."
+    why: "Safe releases."
+    includes: [2 agents]
+    last_verified: 2026-11-11
+
+  - id: security-scanning
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: security-scanning
+    subdir: plugins/security-scanning
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 03-build
+    domains: [product-eng, legal-compliance]
+    summary: "SAST, dependency vulnerability scanning and OWASP Top 10 checks."
+    why: "Security gate in the pipeline."
+    includes: [5 skills, 2 agents, 3 commands]
+    last_verified: 2026-11-11
+
+  - id: observability-monitoring
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: observability-monitoring
+    subdir: plugins/observability-monitoring
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 03-build
+    domains: [product-eng, operations]
+    summary: "Metrics, logging, tracing and SLO implementation."
+    why: "Know when the product breaks."
+    includes: [4 skills, 4 agents, 2 commands]
+    last_verified: 2026-11-11
+
+  - id: engineering-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: engineering-skills
+    subdir: engineering-team
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 03-build
+    domains: [product-eng]
+    summary: "32 engineering skills: architecture, frontend, backend, QA, DevOps, security, AI/ML."
+    why: "Breadth across the engineering function."
+    includes: [54 skills, 5 agents]
+    runs_code: [hooks, mcp-server, helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: seo-content-creation
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: seo-content-creation
+    subdir: plugins/seo-content-creation
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 04-launch
+    domains: [brand-seo]
+    summary: "SEO content writing, planning and E-E-A-T quality auditing."
+    why: "SEO content engine."
+    includes: [3 agents]
+    last_verified: 2026-11-11
+
+  - id: seo-technical-optimization
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: seo-technical-optimization
+    subdir: plugins/seo-technical-optimization
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 04-launch
+    domains: [brand-seo]
+    summary: "Technical SEO: meta tags, keywords, structure and featured snippets."
+    why: "Technical SEO baseline."
+    includes: [4 agents]
+    last_verified: 2026-11-11
+
+  - id: seo-analysis-monitoring
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: seo-analysis-monitoring
+    subdir: plugins/seo-analysis-monitoring
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 04-launch
+    domains: [brand-seo]
+    summary: "Content freshness, cannibalization detection and authority building."
+    why: "Ongoing SEO monitoring."
+    includes: [3 agents]
+    last_verified: 2026-11-11
+
+  - id: content-marketing
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: content-marketing
+    subdir: plugins/content-marketing
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 04-launch
+    domains: [brand-seo, sales-gtm]
+    summary: "Content marketing strategy, web research and synthesis."
+    why: "Content strategy."
+    includes: [1 skills, 2 agents]
+    last_verified: 2026-11-11
+
+  - id: customer-sales-automation
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: customer-sales-automation
+    subdir: plugins/customer-sales-automation
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 04-launch
+    domains: [sales-gtm]
+    summary: "Support workflow automation, sales pipeline management and email campaigns."
+    why: "Sales pipeline basics."
+    includes: [2 agents]
+    last_verified: 2026-11-11
+
+  - id: brand-landingpage
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: brand-landingpage
+    subdir: plugins/brand-landingpage
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 04-launch
+    domains: [brand-seo]
+    summary: "Brand discovery through iterative design to a deployment-ready landing page."
+    why: "Launch site fast."
+    includes: [1 skills]
+    last_verified: 2026-11-11
+
+  - id: marketing-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: marketing-skills
+    subdir: marketing-skill
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 04-launch
+    domains: [brand-seo, sales-gtm]
+    summary: "47 marketing skills across content, SEO/AEO, CRO, channels, growth and sales enablement."
+    why: "Broadest marketing coverage found."
+    includes: [50 skills]
+    runs_code: [hooks, helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: commercial-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: commercial-skills
+    subdir: commercial
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 04-launch
+    domains: [sales-gtm, finance]
+    summary: "Per-deal commercial skills including pricing strategy."
+    why: "Pricing and deal structure."
+    includes: [8 skills, 1 agents, 9 commands]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: business-growth-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: business-growth-skills
+    subdir: business-growth
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 04-launch
+    domains: [sales-gtm]
+    summary: "Customer success, sales engineering and revenue operations."
+    why: "Growth operations."
+    includes: [5 skills]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: pptx-deck-creation
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: pptx-deck-creation
+    subdir: plugins/pptx-deck-creation
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 05-raise
+    domains: [investor-fundraising, brand-seo]
+    summary: "Spec-first workflow for editable, production-ready PowerPoint decks."
+    why: "Investor and pitch deck production."
+    includes: [5 skills, 1 agents]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: business-analytics
+    kind: external
+    source: wshobson/agents
+    mode: marketplace
+    plugin: business-analytics
+    subdir: plugins/business-analytics
+    sha: 9c61ab243def98f72da12abd41cfcf5bcd91af9d
+    license: MIT
+    stars: 42414
+    stage: 06-operate
+    domains: [finance, operations]
+    summary: "Business metrics, KPI tracking and financial reporting."
+    why: "Operating metrics and board reporting."
+    includes: [2 skills, 1 agents]
+    last_verified: 2026-11-11
+
+  - id: c-level-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: c-level-skills
+    subdir: c-level-advisor
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 06-operate
+    domains: [strategy, operations]
+    summary: "33 C-level advisory skills."
+    why: "Executive-team perspective for a solo founder."
+    includes: [46 skills, 2 agents, 1 commands]
+    runs_code: [hooks, helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: c-level-agents
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: c-level-agents
+    subdir: c-level-agents
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 06-operate
+    domains: [strategy, agents-automation]
+    summary: "13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more)."
+    why: "A virtual executive team."
+    includes: [22 skills, 13 agents]
+    last_verified: 2026-11-11
+
+  - id: business-operations-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: business-operations-skills
+    subdir: business-operations
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 06-operate
+    domains: [operations]
+    summary: "BizOps: process mapping, bottleneck analysis and operating cadences."
+    why: "Fortune-500 operating rhythm."
+    includes: [7 skills, 1 agents, 8 commands]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: pm-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: pm-skills
+    subdir: project-management
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 06-operate
+    domains: [operations]
+    summary: "9 project management skills with tools."
+    why: "Planning and delivery."
+    includes: [9 skills, 1 agents, 3 commands]
+    runs_code: [mcp-server, helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: research-ops-skills
+    kind: external
+    source: alirezarezvani/claude-skills
+    mode: marketplace
+    plugin: research-ops-skills
+    subdir: research-ops
+    sha: 9ca476d8401f8750f92f4a7b31ec68efaa61ab02
+    license: MIT
+    stars: 29633
+    stage: 06-operate
+    domains: [strategy, operations]
+    summary: "Cross-functional research operations."
+    why: "Managed research cadence."
+    includes: [6 skills, 2 agents, 7 commands]
+    runs_code: [helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: ecc
+    kind: external
+    source: affaan-m/ECC
+    mode: marketplace
+    plugin: ecc
+    sha: d2ef2680594f9a17526a6e1a2e18b3d242c5d17b
+    license: MIT
+    stars: 301099
+    stage: 03-build
+    domains: [agents-automation, product-eng, investor-fundraising, brand-seo]
+    summary: "Agent harness with hundreds of skills, including investor-materials, investor-outreach, seo, market-research and deployment-patterns."
+    why: "Largest single source for investor and SEO skills. Installs hooks, so review before enabling."
+    includes: [1068 skills, 310 agents, 453 commands]
+    runs_code: [hooks, mcp-server, helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: superpowers
+    kind: external
+    source: obra/superpowers
+    mode: marketplace
+    plugin: superpowers
+    sha: 22f0b463e7a5e579904dd6211a520321035526f7
+    license: MIT
+    stars: 316068
+    stage: 03-build
+    domains: [product-eng, agents-automation]
+    summary: "Agentic skills framework and development methodology (plan, TDD, review)."
+    why: "Disciplined build process."
+    includes: [15 skills]
+    runs_code: [hooks, helper-scripts]
+    last_verified: 2026-11-11
+
+  - id: spec-kit
+    kind: external
+    source: github/spec-kit
+    mode: link-only
+    license: MIT
+    stars: 149300
+    stage: 00-idea
+    domains: [strategy, product-eng]
+    summary: "Spec-driven development toolkit: write the spec first, then build."
+    why: "A CLI rather than a Claude plugin, so install it from its own README."
+    last_verified: 2026-11-11
+
+  - id: anthropic-skills
+    kind: external
+    source: anthropics/skills
+    mode: link-only
+    license: none-reported
+    stars: 192876
+    stage: 04-launch
+    domains: [brand-seo, operations]
+    summary: "Anthropic's reference skills (documents, spreadsheets, presentations, PDFs)."
+    why: "No repo-level licence reported, so link-only."
+    last_verified: 2026-11-11
+
+  - id: claude-plugins-official
+    kind: external
+    source: anthropics/claude-plugins-official
+    mode: link-only
+    license: Apache-2.0
+    stars: 46860
+    stage: 03-build
+    domains: [product-eng, agents-automation]
+    summary: "Anthropic-managed directory of Claude Code plugins."
+    why: "Add it as its own marketplace."
+    last_verified: 2026-11-11
+
+  - id: voltagent-subagents
+    kind: external
+    source: VoltAgent/awesome-claude-code-subagents
+    mode: link-only
+    license: MIT
+    stars: 26484
+    stage: 03-build
+    domains: [agents-automation, product-eng]
+    summary: "100+ specialised Claude Code subagents."
+    why: "Large subagent catalogue; browse and pick."
+    last_verified: 2026-11-11
+
+  - id: awesome-claude-code
+    kind: external
+    source: hesreallyhim/awesome-claude-code
+    mode: link-only
+    license: NOASSERTION
+    stars: 57760
+    stage: 03-build
+    domains: [agents-automation]
+    summary: "Curated list of Claude Code resources."
+    why: "Licence unclear (NOASSERTION), so link-only."
+    last_verified: 2026-11-11
+
+  - id: awesome-claude-skills
+    kind: external
+    source: ComposioHQ/awesome-claude-skills
+    mode: link-only
+    license: none-reported
+    stars: 79249
+    stage: 00-idea
+    domains: [agents-automation]
+    summary: "Curated list of Claude Skills."
+    why: "No licence, so link-only."
+    last_verified: 2026-11-11
+
+  - id: awesome-seo
+    kind: external
+    source: i365dev/awesome-seo
+    mode: link-only
+    license: MIT
+    stars: 2852
+    stage: 04-launch
+    domains: [brand-seo]
+    summary: "Curated SEO, GEO and AI-search resources."
+    why: "Reading list for the SEO playbook."
+    last_verified: 2026-11-11
+
+  - id: awesome-saas-boilerplates
+    kind: external
+    source: xcomptek/awesome-saas-boilerplates
+    mode: link-only
+    license: none-reported
+    stars: 3086
+    stage: 03-build
+    domains: [product-eng]
+    summary: "List of SaaS boilerplates and starter kits."
+    why: "No licence, so link-only."
+    last_verified: 2026-11-11

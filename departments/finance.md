@@ -6,6 +6,37 @@
 
 ### 01-validate Validate
 
-| Name | Kind | What it does |
-|---|---|---|
-| [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
+| [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
+
+### 02-foundation Foundation
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [finance-skills](https://github.com/alirezarezvani/claude-skills) | external | Financial analyst skills: ratios, DCF valuation, budgeting and forecasting. | MIT; 29,633 stars; has helper scripts |
+
+### 04-launch Launch
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [commercial-skills](https://github.com/alirezarezvani/claude-skills) | external | Per-deal commercial skills including pricing strategy. | MIT; 29,633 stars; has helper scripts |
+
+### 06-operate Operate
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [business-analytics](https://github.com/wshobson/agents) | external | Business metrics, KPI tracking and financial reporting. | MIT; 42,414 stars |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install business-analytics@one-man-army
+/plugin install commercial-skills@one-man-army
+/plugin install finance-skills@one-man-army
+/plugin install startup-business-analyst@one-man-army
+```

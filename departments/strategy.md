@@ -4,17 +4,43 @@
 
 [all departments](./README.md)
 
+### 00-idea Idea
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [before-you-build](https://github.com/wshobson/agents) | external | Pre-build product risk review for founders before any implementation. | MIT; 42,414 stars |
+| [executive-mentor](https://github.com/alirezarezvani/claude-skills) | external | Adversarial thinking partner that stress-tests plans and prepares for board and investor questions. | MIT; 29,633 stars; has helper scripts |
+| [spec-kit](https://github.com/github/spec-kit) | external | Spec-driven development toolkit: write the spec first, then build. | MIT; 149,300 stars; link-only (not installable here) |
+
 ### 01-validate Validate
 
-| Name | Kind | What it does |
-|---|---|---|
-| [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. |
-| [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. |
-| [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
+| [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. | in this repo |
+| [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
+| [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
 
 ### 06-operate Operate
 
-| Name | Kind | What it does |
-|---|---|---|
-| [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. |
-| [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
+| [c-level-skills](https://github.com/alirezarezvani/claude-skills) | external | 33 C-level advisory skills. | MIT; 29,633 stars; **REVIEW: includes hooks** |
+| [research-ops-skills](https://github.com/alirezarezvani/claude-skills) | external | Cross-functional research operations. | MIT; 29,633 stars; has helper scripts |
+| [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
+| [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install before-you-build@one-man-army
+/plugin install c-level-agents@one-man-army
+/plugin install c-level-skills@one-man-army
+/plugin install executive-mentor@one-man-army
+/plugin install research-ops-skills@one-man-army
+/plugin install startup-business-analyst@one-man-army
+```

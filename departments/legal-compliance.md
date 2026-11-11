@@ -6,18 +6,36 @@
 
 ### 01-validate Validate
 
-| Name | Kind | What it does |
-|---|---|---|
-| [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. | in this repo |
 
 ### 02-foundation Foundation
 
-| Name | Kind | What it does |
-|---|---|---|
-| [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [compliance-os](https://github.com/alirezarezvani/claude-skills) | external | Meta-orchestrator for multi-framework compliance programmes. | MIT; 29,633 stars; has helper scripts |
+| [general-counsel-advisor](https://github.com/alirezarezvani/claude-skills) | external | General Counsel advisory for startups with a contract risk scanner. | MIT; 29,633 stars; has helper scripts |
+| [hr-legal-compliance](https://github.com/wshobson/agents) | external | HR policy, employment contract and GDPR/SOC2/HIPAA compliance templates. | MIT; 42,414 stars |
+| [security-compliance](https://github.com/wshobson/agents) | external | SOC2, HIPAA and GDPR compliance validation and checklists. | MIT; 42,414 stars |
+| [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. | in this repo |
 
 ### 03-build Build
 
-| Name | Kind | What it does |
-|---|---|---|
-| [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. |
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [security-scanning](https://github.com/wshobson/agents) | external | SAST, dependency vulnerability scanning and OWASP Top 10 checks. | MIT; 42,414 stars |
+| [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
+
+## Install
+
+Third-party plugins run with your permissions. Read anything marked **REVIEW** first ([how these were checked](../docs/EXTERNAL-REVIEW.md)).
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install compliance-os@one-man-army
+/plugin install general-counsel-advisor@one-man-army
+/plugin install hr-legal-compliance@one-man-army
+/plugin install security-compliance@one-man-army
+/plugin install security-scanning@one-man-army
+```

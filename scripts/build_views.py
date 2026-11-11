@@ -5,6 +5,7 @@ Usage:
     python scripts/build_views.py           # write the views
     python scripts/build_views.py --check   # exit 1 if the committed views are stale
 """
+import json
 import sys
 from pathlib import Path
 
@@ -31,19 +32,83 @@ def link(entry, base):
     return f"[{entry['id']}]({prefix}{entry['path']}/)"
 
 
+MARKET = "one-man-army"
+REPO = "lorenmahia/One_Man_Army"
+
+
+def notes(e):
+    """Short trust/licence note for a table row."""
+    if e["kind"] != "external":
+        return "in this repo"
+    bits = [e["license"], f"{e['stars']:,} stars"]
+    if e["mode"] == "link-only":
+        bits.append("link-only (not installable here)")
+    flags = [f for f in (e.get("runs_code") or []) if f != "helper-scripts"]
+    if flags:
+        bits.append("**REVIEW: includes " + ", ".join(flags) + "**")
+    elif "helper-scripts" in (e.get("runs_code") or []):
+        bits.append("has helper scripts")
+    return "; ".join(bits)
+
+
 def row(entry, base):
-    kind = entry["kind"]
-    if kind == "external":
-        kind = f"external ({entry['mode']}, {entry['license']})"
-    return f"| {link(entry, base)} | {kind} | {entry['summary']} |"
+    kind = entry["kind"] if entry["kind"] != "external" else "external"
+    return f"| {link(entry, base)} | {kind} | {entry['summary']} | {notes(entry)} |"
 
 
 def table(entries, base):
     if not entries:
         return "_Nothing registered yet._\n"
-    lines = ["| Name | Kind | What it does |", "|---|---|---|"]
+    lines = ["| Name | Kind | What it does | Notes |", "|---|---|---|---|"]
     lines += [row(e, base) for e in sorted(entries, key=lambda e: (e["kind"], e["id"]))]
     return "\n".join(lines) + "\n"
+
+
+def install_block(entries):
+    """Claude Code commands to install every installable plugin in `entries`."""
+    plugins = sorted(e["plugin"] for e in entries if e["kind"] == "external" and e["mode"] == "marketplace")
+    if not plugins:
+        return ""
+    lines = ["## Install", "",
+             "Third-party plugins run with your permissions. Read anything marked **REVIEW** first "
+             "([how these were checked](../docs/EXTERNAL-REVIEW.md)).", "", "```",
+             f"/plugin marketplace add {REPO}"]
+    lines += [f"/plugin install {p}@{MARKET}" for p in plugins]
+    lines += ["```", ""]
+    return "\n".join(lines)
+
+
+def marketplace(reg):
+    """Build .claude-plugin/marketplace.json content from the registry."""
+    plugins = [{
+        "name": MARKET,
+        "description": "The One_Man_Army skills (research, validation, compliance, outreach, operations).",
+        "category": "business",
+        "source": "./",
+    }]
+    for e in sorted((x for x in reg["entries"] if x["kind"] == "external" and x["mode"] == "marketplace"),
+                    key=lambda x: x["plugin"]):
+        url = f"https://github.com/{e['source']}.git"
+        if e.get("subdir"):
+            src = {"source": "git-subdir", "url": url, "path": e["subdir"], "sha": e["sha"]}
+        else:
+            src = {"source": "url", "url": url, "sha": e["sha"]}
+        stage = next(s["name"] for s in reg["stages"] if s["id"] == e["stage"])
+        plugins.append({
+            "name": e["plugin"],
+            "description": f"{e['summary']} (Third-party: {e['source']}, {e['license']}, pinned.)",
+            "category": stage.lower(),
+            "source": src,
+            "homepage": f"https://github.com/{e['source']}",
+        })
+    doc = {
+        "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+        "name": MARKET,
+        "description": "Structured Claude toolkit for solo founders: Journey and Departments views over pinned, reviewed plugins.",
+        "owner": {"name": "lorenmahia"},
+        "plugins": plugins,
+    }
+    return json.dumps(doc, indent=2, ensure_ascii=False) + "\n"
 
 
 def build(reg):
@@ -69,7 +134,7 @@ def build(reg):
             nav.append(f"[{stages[i+1]['id']} →](./{stages[i+1]['id']}.md)")
         body = [HEADER, f"# Stage {s['id']}: {s['name']}\n", " · ".join(nav) + "\n",
                 f"**Purpose.** {s['purpose']}\n", f"**Exit gate.** {s['exit_gate']}\n",
-                "## Tools for this stage\n", table(here, "journey")]
+                "## Tools for this stage\n", table(here, "journey"), install_block(here)]
         out[f"journey/{s['id']}.md"] = "\n".join(body)
 
     # ---- Departments (by domain) ----
@@ -90,7 +155,11 @@ def build(reg):
                 sections.append(f"### {s['id']} {s['name']}\n\n{table(sub, 'departments')}")
         body = [HEADER, f"# {d['name']}\n", "[all departments](./README.md)\n"]
         body += sections or ["_Nothing registered yet._\n"]
+        body.append(install_block(here))
         out[f"departments/{d['id']}.md"] = "\n".join(body)
+
+    # ---- Installable marketplace ----
+    out[".claude-plugin/marketplace.json"] = marketplace(reg)
     return out
 
 

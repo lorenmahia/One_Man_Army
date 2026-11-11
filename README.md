@@ -17,10 +17,19 @@ Everything in this repo is tagged once in a single [registry](./registry/registr
 
 How it works, and how to add to it: [Architecture](./docs/ARCHITECTURE.md) · [Contributing](./docs/CONTRIBUTING.md).
 
+### Install in Claude Code
+
+```
+/plugin marketplace add lorenmahia/One_Man_Army
+/plugin install one-man-army@one-man-army
+```
+
+That installs the skills in this repo. The same marketplace also lists **31 pinned third-party plugins** (from ECC, alirezarezvani/claude-skills, wshobson/agents and superpowers) plus 8 link-only references, each tagged to a stage and department. Every stage page in the [Journey](./journey/README.md) ends with the exact `/plugin install` lines for that stage. Anything that runs code (hooks, MCP servers) is flagged **REVIEW**; see [how external repos are reviewed](./docs/EXTERNAL-REVIEW.md), including what was *not* checked.
+
 ### Roadmap
 
 - [x] Registry, generated Journey and Departments views, CI validation
-- [ ] External bundle: pinned, licence-checked references to ECC, claude-skills, wshobson/agents, spec-kit and others via a plugin marketplace
+- [x] External bundle: pinned, licence-checked references to ECC, claude-skills, wshobson/agents, superpowers and others via a plugin marketplace (spec-kit and awesome-lists are link-only)
 - [ ] `start-here` onboarding skill that asks which lens you prefer and builds your plan
 - [ ] Sourced deep-research playbooks, starting with fundraising and investor approach, CI/CD, and SEO/GEO
 

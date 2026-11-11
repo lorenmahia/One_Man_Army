@@ -1,0 +1,386 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "one-man-army",
+  "description": "Structured Claude toolkit for solo founders: Journey and Departments views over pinned, reviewed plugins.",
+  "owner": {
+    "name": "lorenmahia"
+  },
+  "plugins": [
+    {
+      "name": "one-man-army",
+      "description": "The One_Man_Army skills (research, validation, compliance, outreach, operations).",
+      "category": "business",
+      "source": "./"
+    },
+    {
+      "name": "before-you-build",
+      "description": "Pre-build product risk review for founders before any implementation. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "idea",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/before-you-build",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "brand-landingpage",
+      "description": "Brand discovery through iterative design to a deployment-ready landing page. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/brand-landingpage",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "business-analytics",
+      "description": "Business metrics, KPI tracking and financial reporting. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "operate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/business-analytics",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "business-growth-skills",
+      "description": "Customer success, sales engineering and revenue operations. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "business-growth",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "business-operations-skills",
+      "description": "BizOps: process mapping, bottleneck analysis and operating cadences. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "operate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "business-operations",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "c-level-agents",
+      "description": "13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "operate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "c-level-agents",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "c-level-skills",
+      "description": "33 C-level advisory skills. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "operate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "c-level-advisor",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "cicd-automation",
+      "description": "CI/CD pipeline configuration, GitHub Actions workflows and automated deployment. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/cicd-automation",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "commercial-skills",
+      "description": "Per-deal commercial skills including pricing strategy. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "commercial",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "compliance-os",
+      "description": "Meta-orchestrator for multi-framework compliance programmes. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "foundation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "compliance-os",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "content-marketing",
+      "description": "Content marketing strategy, web research and synthesis. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/content-marketing",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "customer-sales-automation",
+      "description": "Support workflow automation, sales pipeline management and email campaigns. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/customer-sales-automation",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "deployment-strategies",
+      "description": "Deployment patterns, rollback automation and infrastructure templates. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/deployment-strategies",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "ecc",
+      "description": "Agent harness with hundreds of skills, including investor-materials, investor-outreach, seo, market-research and deployment-patterns. (Third-party: affaan-m/ECC, MIT, pinned.)",
+      "category": "build",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/affaan-m/ECC.git",
+        "sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+      },
+      "homepage": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "engineering-skills",
+      "description": "32 engineering skills: architecture, frontend, backend, QA, DevOps, security, AI/ML. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "engineering-team",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "executive-mentor",
+      "description": "Adversarial thinking partner that stress-tests plans and prepares for board and investor questions. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "idea",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "c-level-advisor/executive-mentor",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "finance-skills",
+      "description": "Financial analyst skills: ratios, DCF valuation, budgeting and forecasting. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "foundation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "finance",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "general-counsel-advisor",
+      "description": "General Counsel advisory for startups with a contract risk scanner. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "foundation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "c-level-advisor/general-counsel-advisor",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "hr-legal-compliance",
+      "description": "HR policy, employment contract and GDPR/SOC2/HIPAA compliance templates. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "foundation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/hr-legal-compliance",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "marketing-skills",
+      "description": "47 marketing skills across content, SEO/AEO, CRO, channels, growth and sales enablement. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "marketing-skill",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "observability-monitoring",
+      "description": "Metrics, logging, tracing and SLO implementation. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/observability-monitoring",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "pm-skills",
+      "description": "9 project management skills with tools. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "operate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "project-management",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "pptx-deck-creation",
+      "description": "Spec-first workflow for editable, production-ready PowerPoint decks. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "raise",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/pptx-deck-creation",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "research-ops-skills",
+      "description": "Cross-functional research operations. (Third-party: alirezarezvani/claude-skills, MIT, pinned.)",
+      "category": "operate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alirezarezvani/claude-skills.git",
+        "path": "research-ops",
+        "sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      },
+      "homepage": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "name": "security-compliance",
+      "description": "SOC2, HIPAA and GDPR compliance validation and checklists. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "foundation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/security-compliance",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "security-scanning",
+      "description": "SAST, dependency vulnerability scanning and OWASP Top 10 checks. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "build",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/security-scanning",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "seo-analysis-monitoring",
+      "description": "Content freshness, cannibalization detection and authority building. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/seo-analysis-monitoring",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "seo-content-creation",
+      "description": "SEO content writing, planning and E-E-A-T quality auditing. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/seo-content-creation",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "seo-technical-optimization",
+      "description": "Technical SEO: meta tags, keywords, structure and featured snippets. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "launch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/seo-technical-optimization",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "startup-business-analyst",
+      "description": "Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. (Third-party: wshobson/agents, MIT, pinned.)",
+      "category": "validate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wshobson/agents.git",
+        "path": "plugins/startup-business-analyst",
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d"
+      },
+      "homepage": "https://github.com/wshobson/agents"
+    },
+    {
+      "name": "superpowers",
+      "description": "Agentic skills framework and development methodology (plan, TDD, review). (Third-party: obra/superpowers, MIT, pinned.)",
+      "category": "build",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git",
+        "sha": "22f0b463e7a5e579904dd6211a520321035526f7"
+      },
+      "homepage": "https://github.com/obra/superpowers"
+    }
+  ]
+}

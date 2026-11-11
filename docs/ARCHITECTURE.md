@@ -22,11 +22,12 @@ registry/registry.yaml ──► scripts/build_views.py ──► journey/      
 | `registry/` | `registry.yaml` (source of truth) and `SCHEMA.md` |
 | `skills/<name>/` | `SKILL.md` (instructions for Claude) + `README.md` (for humans) |
 | `journey/`, `departments/` | **Generated.** Never edit by hand. |
-| `scripts/` | `build_views.py` generates views; `validate.py` checks everything |
+| `.claude-plugin/` | `plugin.json` (the in-repo skills as the `one-man-army` plugin) and `marketplace.json` (**generated**: that plugin plus every pinned external plugin) |
+| `scripts/` | `build_views.py` generates views and the marketplace; `validate.py` checks everything |
 | `.github/workflows/` | CI runs `validate.py` on every PR and push to `main` |
-| `docs/` | This file and `CONTRIBUTING.md` |
+| `docs/` | This file, `CONTRIBUTING.md` and [`EXTERNAL-REVIEW.md`](./EXTERNAL-REVIEW.md) (how third-party repos are vetted, and the limits of that vetting) |
 
-Planned (see the roadmap in the root README): `agents/`, `templates/`, `playbooks/`, and `.claude-plugin/marketplace.json` for installable stage packs and pinned external repos.
+Planned (see the roadmap in the root README): `agents/`, `templates/`, `playbooks/` and the `start-here` onboarding skill.
 
 ## Design rules
 
