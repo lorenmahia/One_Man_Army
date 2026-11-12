@@ -15,6 +15,7 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+| [networking-communities-and-partnerships](../playbooks/04-launch/networking-communities-and-partnerships.md) | playbook | Building a network from scratch - stakeholder mapping, communities, outreach craft and anti-spam rules, advisors and equity norms, partnerships and press. | in this repo |
 
 ### 05-raise Raise
 

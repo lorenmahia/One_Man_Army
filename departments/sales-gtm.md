@@ -9,6 +9,7 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
+| [validation-and-experiment-design](../playbooks/01-validate/validation-and-experiment-design.md) | playbook | Why startups fail, customer-discovery and demand-test methods ranked by evidence strength, small-sample experiment design and the go / adjust / stop gate. | in this repo |
 
 ### 04-launch Launch
 
@@ -16,6 +17,7 @@
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
 | [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
+| [networking-communities-and-partnerships](../playbooks/04-launch/networking-communities-and-partnerships.md) | playbook | Building a network from scratch - stakeholder mapping, communities, outreach craft and anti-spam rules, advisors and equity norms, partnerships and press. | in this repo |
 | [business-growth-skills](https://github.com/alirezarezvani/claude-skills) | external | Customer success, sales engineering and revenue operations. | MIT; 29,633 stars; has helper scripts |
 | [commercial-skills](https://github.com/alirezarezvani/claude-skills) | external | Per-deal commercial skills including pricing strategy. | MIT; 29,633 stars; has helper scripts |
 | [content-marketing](https://github.com/wshobson/agents) | external | Content marketing strategy, web research and synthesis. | MIT; 42,414 stars |

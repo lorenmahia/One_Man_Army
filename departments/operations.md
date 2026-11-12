@@ -37,11 +37,18 @@
 | [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
 | [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
+| [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
 | [business-analytics](https://github.com/wshobson/agents) | external | Business metrics, KPI tracking and financial reporting. | MIT; 42,414 stars |
 | [business-operations-skills](https://github.com/alirezarezvani/claude-skills) | external | BizOps: process mapping, bottleneck analysis and operating cadences. | MIT; 29,633 stars; has helper scripts |
 | [c-level-skills](https://github.com/alirezarezvani/claude-skills) | external | 33 C-level advisory skills. | MIT; 29,633 stars; **REVIEW: includes hooks** |
 | [pm-skills](https://github.com/alirezarezvani/claude-skills) | external | 9 project management skills with tools. | MIT; 29,633 stars; **REVIEW: includes mcp-server** |
 | [research-ops-skills](https://github.com/alirezarezvani/claude-skills) | external | Cross-functional research operations. | MIT; 29,633 stars; has helper scripts |
+
+### 07-scale Scale
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [hiring-and-scaling-systems](../playbooks/07-scale/hiring-and-scaling-systems.md) | playbook | When and how to make the first hires, systems before headcount, AI agents as leverage, new-market entry and the classic scaling failures. | in this repo |
 
 ## Install
 

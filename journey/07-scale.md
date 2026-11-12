@@ -10,5 +10,7 @@
 
 ## Tools for this stage
 
-_Nothing registered yet._
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [hiring-and-scaling-systems](../playbooks/07-scale/hiring-and-scaling-systems.md) | playbook | When and how to make the first hires, systems before headcount, AI agents as leverage, new-market entry and the classic scaling failures. | in this repo |
 

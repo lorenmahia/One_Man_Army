@@ -15,6 +15,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [company-setup-banking-and-tax](../playbooks/02-foundation/company-setup-banking-and-tax.md) | playbook | A decision method for entity and jurisdiction with worked official-source examples, banking and payments, tax-registration triggers and finance operations. | in this repo |
 | [finance-skills](https://github.com/alirezarezvani/claude-skills) | external | Financial analyst skills: ratios, DCF valuation, budgeting and forecasting. | MIT; 29,633 stars; has helper scripts |
 
 ### 04-launch Launch
@@ -33,6 +34,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
 | [business-analytics](https://github.com/wshobson/agents) | external | Business metrics, KPI tracking and financial reporting. | MIT; 42,414 stars |
 
 ## Install

@@ -15,6 +15,8 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. | in this repo |
+| [company-setup-banking-and-tax](../playbooks/02-foundation/company-setup-banking-and-tax.md) | playbook | A decision method for entity and jurisdiction with worked official-source examples, banking and payments, tax-registration triggers and finance operations. | in this repo |
+| [contracts-ip-and-equity](../playbooks/02-foundation/contracts-ip-and-equity.md) | playbook | Founder equity and vesting, IP assignment, trademarks, the contracts a startup needs first, worker classification and questions to bring to a lawyer. | in this repo |
 | [compliance-os](https://github.com/alirezarezvani/claude-skills) | external | Meta-orchestrator for multi-framework compliance programmes. | MIT; 29,633 stars; has helper scripts |
 | [general-counsel-advisor](https://github.com/alirezarezvani/claude-skills) | external | General Counsel advisory for startups with a contract risk scanner. | MIT; 29,633 stars; has helper scripts |
 | [hr-legal-compliance](https://github.com/wshobson/agents) | external | HR policy, employment contract and GDPR/SOC2/HIPAA compliance templates. | MIT; 42,414 stars |

@@ -17,6 +17,7 @@
 | [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
 | [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
+| [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
 | [business-analytics](https://github.com/wshobson/agents) | external | Business metrics, KPI tracking and financial reporting. | MIT; 42,414 stars |
 | [business-operations-skills](https://github.com/alirezarezvani/claude-skills) | external | BizOps: process mapping, bottleneck analysis and operating cadences. | MIT; 29,633 stars; has helper scripts |
 | [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
