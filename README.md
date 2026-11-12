@@ -33,7 +33,8 @@ That installs the skills in this repo. The same marketplace also lists **31 pinn
 - [x] [`start-here`](./skills/start-here/) onboarding skill that asks which lens you prefer and builds your plan
 - [x] Raise-stage playbooks: [investor landscape and approach](./playbooks/05-raise/investor-landscape-and-approach.md), [pitch deck and data room](./playbooks/05-raise/pitch-deck-and-data-room.md), [instruments, terms and process](./playbooks/05-raise/instruments-terms-and-process.md)
 - [x] Build and Launch playbooks: [CI/CD and release](./playbooks/03-build/cicd-and-release-pipeline.md), [security and secrets baseline](./playbooks/03-build/security-and-secrets-baseline.md), [SEO and GEO](./playbooks/04-launch/seo-and-geo-playbook.md), [go-to-market and first customers](./playbooks/04-launch/go-to-market-and-first-customers.md)
-- [ ] Playbooks for Foundation, Operate, Validate, Scale and networking, then skills, agents and templates distilled from them
+- [x] Remaining stage playbooks: [validation and experiments](./playbooks/01-validate/validation-and-experiment-design.md), [company setup, banking and tax](./playbooks/02-foundation/company-setup-banking-and-tax.md), [contracts, IP and equity](./playbooks/02-foundation/contracts-ip-and-equity.md), [networking and partnerships](./playbooks/04-launch/networking-communities-and-partnerships.md), [operating cadences and reporting](./playbooks/06-operate/operating-cadences-okrs-and-reporting.md), [hiring and scaling](./playbooks/07-scale/hiring-and-scaling-systems.md)
+- [ ] Skills, agents and templates distilled from the playbooks
 
 ## Skills
 

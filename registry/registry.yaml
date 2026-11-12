@@ -215,6 +215,54 @@ entries:
     summary: ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate.
     last_verified: 2026-11-11
 
+  - id: validation-and-experiment-design
+    kind: playbook
+    path: playbooks/01-validate/validation-and-experiment-design.md
+    stage: 01-validate
+    domains: [strategy, sales-gtm]
+    summary: Why startups fail, customer-discovery and demand-test methods ranked by evidence strength, small-sample experiment design and the go / adjust / stop gate.
+    last_verified: 2026-11-11
+
+  - id: company-setup-banking-and-tax
+    kind: playbook
+    path: playbooks/02-foundation/company-setup-banking-and-tax.md
+    stage: 02-foundation
+    domains: [legal-compliance, finance]
+    summary: A decision method for entity and jurisdiction with worked official-source examples, banking and payments, tax-registration triggers and finance operations.
+    last_verified: 2026-11-11
+
+  - id: contracts-ip-and-equity
+    kind: playbook
+    path: playbooks/02-foundation/contracts-ip-and-equity.md
+    stage: 02-foundation
+    domains: [legal-compliance]
+    summary: Founder equity and vesting, IP assignment, trademarks, the contracts a startup needs first, worker classification and questions to bring to a lawyer.
+    last_verified: 2026-11-11
+
+  - id: networking-communities-and-partnerships
+    kind: playbook
+    path: playbooks/04-launch/networking-communities-and-partnerships.md
+    stage: 04-launch
+    domains: [networking, sales-gtm]
+    summary: Building a network from scratch - stakeholder mapping, communities, outreach craft and anti-spam rules, advisors and equity norms, partnerships and press.
+    last_verified: 2026-11-11
+
+  - id: operating-cadences-okrs-and-reporting
+    kind: playbook
+    path: playbooks/06-operate/operating-cadences-okrs-and-reporting.md
+    stage: 06-operate
+    domains: [operations, strategy, finance]
+    summary: Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers.
+    last_verified: 2026-11-11
+
+  - id: hiring-and-scaling-systems
+    kind: playbook
+    path: playbooks/07-scale/hiring-and-scaling-systems.md
+    stage: 07-scale
+    domains: [operations, strategy]
+    summary: When and how to make the first hires, systems before headcount, AI agents as leverage, new-market entry and the classic scaling failures.
+    last_verified: 2026-11-11
+
   # ---- External references: pinned to a commit SHA, never copied (see docs/EXTERNAL-REVIEW.md) ----
 
   - id: before-you-build

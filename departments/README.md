@@ -6,15 +6,15 @@ Every skill, agent, template and external repo, grouped by the department it ser
 
 | Department | Items |
 |---|---|
-| [Strategy & research](./strategy.md) | 15 |
-| [Legal & compliance](./legal-compliance.md) | 10 |
-| [Finance](./finance.md) | 6 |
+| [Strategy & research](./strategy.md) | 18 |
+| [Legal & compliance](./legal-compliance.md) | 12 |
+| [Finance](./finance.md) | 8 |
 | [Product, engineering & CI/CD](./product-eng.md) | 16 |
 | [Agents & automation](./agents-automation.md) | 10 |
 | [Brand & SEO](./brand-seo.md) | 12 |
-| [Sales & go-to-market](./sales-gtm.md) | 8 |
+| [Sales & go-to-market](./sales-gtm.md) | 10 |
 | [Investors & fundraising](./investor-fundraising.md) | 6 |
-| [Networking & partnerships](./networking.md) | 3 |
-| [Operations](./operations.md) | 14 |
+| [Networking & partnerships](./networking.md) | 4 |
+| [Operations](./operations.md) | 16 |
 
 Prefer a step-by-step order? See the [journey](../journey/README.md).

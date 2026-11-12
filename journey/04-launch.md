@@ -14,6 +14,7 @@
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
 | [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
+| [networking-communities-and-partnerships](../playbooks/04-launch/networking-communities-and-partnerships.md) | playbook | Building a network from scratch - stakeholder mapping, communities, outreach craft and anti-spam rules, advisors and equity norms, partnerships and press. | in this repo |
 | [seo-and-geo-playbook](../playbooks/04-launch/seo-and-geo-playbook.md) | playbook | Classic SEO plus GEO/AEO for AI answer engines in 2026 - what is evidenced versus speculative, content strategy for a new site, measurement and a 90-day plan. | in this repo |
 | [anthropic-skills](https://github.com/anthropics/skills) | external | Anthropic's reference skills (documents, spreadsheets, presentations, PDFs). | none-reported; 192,876 stars; link-only (not installable here) |
 | [awesome-seo](https://github.com/i365dev/awesome-seo) | external | Curated SEO, GEO and AI-search resources. | MIT; 2,852 stars; link-only (not installable here) |
