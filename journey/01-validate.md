@@ -15,6 +15,7 @@
 | [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. | in this repo |
 | [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
 | [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
+| [validation-experiment-planner](../skills/validation-experiment-planner/) | skill | Ranks demand tests by evidence strength, sets success and failure thresholds before running anything, and applies small-sample interval guidance and a go / adjust / stop gate. | in this repo |
 | [validation-and-experiment-design](../playbooks/01-validate/validation-and-experiment-design.md) | playbook | Why startups fail, customer-discovery and demand-test methods ranked by evidence strength, small-sample experiment design and the go / adjust / stop gate. | in this repo |
 | [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 

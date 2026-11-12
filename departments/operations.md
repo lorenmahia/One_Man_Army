@@ -35,6 +35,7 @@
 | [artifact-project-dashboard](../skills/artifact-project-dashboard/) | skill | Private one-page project dashboard driven by a single JSON block. | in this repo |
 | [deadline-calendar-sync](../skills/deadline-calendar-sync/) | skill | All-day calendar deadlines linked to the document or card they belong to. | in this repo |
 | [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
+| [operating-rhythm-setup](../skills/operating-rhythm-setup/) | skill | Sets up quarterly OKRs, a short weekly review, a monthly investor update, a decision log and a risk register with kill criteria. | in this repo |
 | [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
 | [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
@@ -48,6 +49,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [hiring-and-scaling-planner](../skills/hiring-and-scaling-planner/) | skill | Hire, contract or automate decision with loaded-cost math, structured hiring and onboarding plan, systems before headcount and an expansion gate. | in this repo |
 | [hiring-and-scaling-systems](../playbooks/07-scale/hiring-and-scaling-systems.md) | playbook | When and how to make the first hires, systems before headcount, AI agents as leverage, new-market entry and the classic scaling failures. | in this repo |
 
 ## Install

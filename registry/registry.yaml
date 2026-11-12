@@ -157,6 +157,112 @@ entries:
     summary: All-day calendar deadlines linked to the document or card they belong to.
     last_verified: 2026-11-11
 
+  # ---- Skills distilled from the playbooks (each points back to its playbook for evidence) ----
+
+  - id: validation-experiment-planner
+    kind: skill
+    path: skills/validation-experiment-planner
+    stage: 01-validate
+    domains: [strategy, sales-gtm]
+    summary: Ranks demand tests by evidence strength, sets success and failure thresholds before running anything, and applies small-sample interval guidance and a go / adjust / stop gate.
+    last_verified: 2026-11-11
+
+  - id: company-setup-navigator
+    kind: skill
+    path: skills/company-setup-navigator
+    stage: 02-foundation
+    domains: [legal-compliance, finance]
+    summary: Walks the entity and jurisdiction decision, names the official registries to confirm with, and covers banking, tax triggers and finance operations. Not legal or tax advice.
+    last_verified: 2026-11-11
+
+  - id: legal-foundations-checklist
+    kind: skill
+    path: skills/legal-foundations-checklist
+    stage: 02-foundation
+    domains: [legal-compliance]
+    summary: Status checklist for founder equity and vesting, IP assignment, trademarks, first contracts and worker classification, with questions for a startup lawyer. Not legal advice.
+    last_verified: 2026-11-11
+
+  - id: ci-cd-bootstrap
+    kind: skill
+    path: skills/ci-cd-bootstrap
+    stage: 03-build
+    domains: [product-eng, agents-automation]
+    summary: Designs a staged CI/CD adoption plan for the founder's stack with SHA-pinned actions, least-privilege tokens, OIDC and DORA tracking.
+    last_verified: 2026-11-11
+
+  - id: security-baseline-audit
+    kind: skill
+    path: skills/security-baseline-audit
+    stage: 03-build
+    domains: [product-eng, legal-compliance]
+    summary: Scores the founder's setup against ten baseline security controls and produces a prioritised fix list, a minimal policy set and a one-page incident runbook.
+    last_verified: 2026-11-11
+
+  - id: seo-geo-launch-plan
+    kind: skill
+    path: skills/seo-geo-launch-plan
+    stage: 04-launch
+    domains: [brand-seo]
+    summary: Technical SEO pass, topic-cluster plan and a GEO/AEO plan that separates evidenced actions from speculation, with measurement and a 90-day plan.
+    last_verified: 2026-11-11
+
+  - id: go-to-market-planner
+    kind: skill
+    path: skills/go-to-market-planner
+    stage: 04-launch
+    domains: [sales-gtm, strategy]
+    summary: ICP and beachhead choice, positioning canvas, pricing approach, channel shortlist, first-10-customers plan and a go / adjust / stop gate.
+    last_verified: 2026-11-11
+
+  - id: network-builder
+    kind: skill
+    path: skills/network-builder
+    stage: 04-launch
+    domains: [networking, sales-gtm]
+    summary: Stakeholder map and community shortlist from public professional information, outreach cadence, advisor norms and partnership pilot structure.
+    last_verified: 2026-11-11
+
+  - id: investor-research-pipeline
+    kind: skill
+    path: skills/investor-research-pipeline
+    stage: 05-raise
+    domains: [investor-fundraising, networking]
+    summary: Fit test for raising at all, then a scored 30-60 name investor target list built from public sources, with a tracker and outreach batching plan.
+    last_verified: 2026-11-11
+
+  - id: pitch-deck-builder
+    kind: skill
+    path: skills/pitch-deck-builder
+    stage: 05-raise
+    domains: [investor-fundraising, brand-seo]
+    summary: Slide-by-slide deck plan with an evidence checklist, Q&A prep and a data-room checklist by stage.
+    last_verified: 2026-11-11
+
+  - id: fundraising-round-planner
+    kind: skill
+    path: skills/fundraising-round-planner
+    stage: 05-raise
+    domains: [investor-fundraising, finance]
+    summary: Compares SAFEs, notes and priced rounds, runs illustrative dilution math with the founder's numbers, and lays out the process timeline and lawyer questions.
+    last_verified: 2026-11-11
+
+  - id: operating-rhythm-setup
+    kind: skill
+    path: skills/operating-rhythm-setup
+    stage: 06-operate
+    domains: [operations, strategy]
+    summary: Sets up quarterly OKRs, a short weekly review, a monthly investor update, a decision log and a risk register with kill criteria.
+    last_verified: 2026-11-11
+
+  - id: hiring-and-scaling-planner
+    kind: skill
+    path: skills/hiring-and-scaling-planner
+    stage: 07-scale
+    domains: [operations, strategy]
+    summary: Hire, contract or automate decision with loaded-cost math, structured hiring and onboarding plan, systems before headcount and an expansion gate.
+    last_verified: 2026-11-11
+
   # ---- Playbooks: sourced, dated research briefs authored in this repo ----
 
   - id: investor-landscape-and-approach

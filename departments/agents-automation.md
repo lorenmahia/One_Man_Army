@@ -14,6 +14,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [ci-cd-bootstrap](../skills/ci-cd-bootstrap/) | skill | Designs a staged CI/CD adoption plan for the founder's stack with SHA-pinned actions, least-privilege tokens, OIDC and DORA tracking. | in this repo |
 | [cicd-and-release-pipeline](../playbooks/03-build/cicd-and-release-pipeline.md) | playbook | A Fortune-500-grade, solo-sized CI/CD pipeline - stages, SHA-pinned GitHub Actions, OIDC, releases, rollback, DORA metrics and a staged adoption plan. | in this repo |
 | [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | external | Curated list of Claude Code resources. | NOASSERTION; 57,760 stars; link-only (not installable here) |
 | [cicd-automation](https://github.com/wshobson/agents) | external | CI/CD pipeline configuration, GitHub Actions workflows and automated deployment. | MIT; 42,414 stars |

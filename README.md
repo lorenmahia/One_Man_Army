@@ -34,7 +34,8 @@ That installs the skills in this repo. The same marketplace also lists **31 pinn
 - [x] Raise-stage playbooks: [investor landscape and approach](./playbooks/05-raise/investor-landscape-and-approach.md), [pitch deck and data room](./playbooks/05-raise/pitch-deck-and-data-room.md), [instruments, terms and process](./playbooks/05-raise/instruments-terms-and-process.md)
 - [x] Build and Launch playbooks: [CI/CD and release](./playbooks/03-build/cicd-and-release-pipeline.md), [security and secrets baseline](./playbooks/03-build/security-and-secrets-baseline.md), [SEO and GEO](./playbooks/04-launch/seo-and-geo-playbook.md), [go-to-market and first customers](./playbooks/04-launch/go-to-market-and-first-customers.md)
 - [x] Remaining stage playbooks: [validation and experiments](./playbooks/01-validate/validation-and-experiment-design.md), [company setup, banking and tax](./playbooks/02-foundation/company-setup-banking-and-tax.md), [contracts, IP and equity](./playbooks/02-foundation/contracts-ip-and-equity.md), [networking and partnerships](./playbooks/04-launch/networking-communities-and-partnerships.md), [operating cadences and reporting](./playbooks/06-operate/operating-cadences-okrs-and-reporting.md), [hiring and scaling](./playbooks/07-scale/hiring-and-scaling-systems.md)
-- [ ] Skills, agents and templates distilled from the playbooks
+- [x] 13 skills distilled from the playbooks (below), each pointing back to its playbook for the evidence
+- [ ] Agents (for example a virtual CFO/CMO) and ready-to-copy templates (deck outline, data-room checklist, OKR sheet, CI starters)
 
 ## Skills
 
@@ -75,6 +76,26 @@ That installs the skills in this repo. The same marketplace also lists **31 pinn
 | [scheduled-artifact-refresh](./skills/scheduled-artifact-refresh/) | A scheduled task that rewrites only a page's data block, validates it, republishes it, and notifies you only for near deadlines or failures. |
 | [deadline-calendar-sync](./skills/deadline-calendar-sync/) | All-day calendar deadlines linked to the document or card they belong to, kept in step when dates change. |
 
+### By lifecycle stage (distilled from the [playbooks](./playbooks/))
+
+Each of these runs a playbook with you: it asks a round of questions, applies the playbook's method to your situation, and produces a concrete deliverable. Evidence and open questions live in the playbook; the skill tells you which section to read.
+
+| Stage | Skill | What it does |
+|---|---|---|
+| 01 Validate | [validation-experiment-planner](./skills/validation-experiment-planner/) | Ranks demand tests by evidence strength, sets success and failure thresholds *before* running anything, small-sample guidance, go / adjust / stop gate. |
+| 02 Foundation | [company-setup-navigator](./skills/company-setup-navigator/) | Entity and jurisdiction decision method, the official registries to confirm with, banking, tax triggers, finance operations. Not legal or tax advice. |
+| 02 Foundation | [legal-foundations-checklist](./skills/legal-foundations-checklist/) | Founder equity and vesting, IP assignment, trademarks, first contracts, worker classification, questions for a lawyer. Not legal advice. |
+| 03 Build | [ci-cd-bootstrap](./skills/ci-cd-bootstrap/) | Staged CI/CD plan for your stack: SHA-pinned actions, least-privilege tokens, OIDC, rollback, DORA tracking. |
+| 03 Build | [security-baseline-audit](./skills/security-baseline-audit/) | Scores your setup against ten baseline controls; fix list, minimal policy set, one-page incident runbook. |
+| 04 Launch | [seo-geo-launch-plan](./skills/seo-geo-launch-plan/) | Technical SEO pass, topic clusters, and a GEO/AEO plan that separates evidence from speculation. |
+| 04 Launch | [go-to-market-planner](./skills/go-to-market-planner/) | ICP and beachhead, positioning, pricing approach, channels, first 10 customers, launch checklist. |
+| 04 Launch | [network-builder](./skills/network-builder/) | Stakeholder map and community shortlist from public information, outreach cadence, advisors, partnership pilots. |
+| 05 Raise | [investor-research-pipeline](./skills/investor-research-pipeline/) | Should you raise at all, then a scored 30-60 investor target list from public sources with a tracker. |
+| 05 Raise | [pitch-deck-builder](./skills/pitch-deck-builder/) | Slide-by-slide deck plan with evidence checklist, Q&A prep and data-room checklist by stage. |
+| 05 Raise | [fundraising-round-planner](./skills/fundraising-round-planner/) | SAFEs vs notes vs priced rounds, illustrative dilution math with your numbers, timeline, lawyer questions. |
+| 06 Operate | [operating-rhythm-setup](./skills/operating-rhythm-setup/) | Quarterly OKRs, short weekly review, monthly investor update, decision log, risk register with kill criteria. |
+| 07 Scale | [hiring-and-scaling-planner](./skills/hiring-and-scaling-planner/) | Hire / contract / automate decision, loaded-cost math, structured hiring, systems before headcount, expansion gate. |
+
 ## How they fit together
 
 ```
@@ -95,6 +116,7 @@ registry/registry.yaml   # source of truth: every skill and external repo, tagge
 skills/<skill-name>/
   SKILL.md               # instructions Claude follows (YAML frontmatter: name, description)
   README.md              # human overview: when to use, outputs, install
+playbooks/<stage>/       # sourced, dated research briefs (facts vs estimates vs inference, open questions)
 journey/  departments/   # GENERATED views of the registry (do not edit by hand)
 scripts/                 # build_views.py, validate.py
 docs/                    # ARCHITECTURE.md, CONTRIBUTING.md

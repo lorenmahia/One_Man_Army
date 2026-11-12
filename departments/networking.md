@@ -15,11 +15,13 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+| [network-builder](../skills/network-builder/) | skill | Stakeholder map and community shortlist from public professional information, outreach cadence, advisor norms and partnership pilot structure. | in this repo |
 | [networking-communities-and-partnerships](../playbooks/04-launch/networking-communities-and-partnerships.md) | playbook | Building a network from scratch - stakeholder mapping, communities, outreach craft and anti-spam rules, advisors and equity norms, partnerships and press. | in this repo |
 
 ### 05-raise Raise
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [investor-research-pipeline](../skills/investor-research-pipeline/) | skill | Fit test for raising at all, then a scored 30-60 name investor target list built from public sources, with a tracker and outreach batching plan. | in this repo |
 | [investor-landscape-and-approach](../playbooks/05-raise/investor-landscape-and-approach.md) | playbook | Who funds early-stage startups, whether to raise at all, how to research investors from public sources and how to approach them. | in this repo |
 

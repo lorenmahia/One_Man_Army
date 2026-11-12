@@ -14,6 +14,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [seo-geo-launch-plan](../skills/seo-geo-launch-plan/) | skill | Technical SEO pass, topic-cluster plan and a GEO/AEO plan that separates evidenced actions from speculation, with measurement and a 90-day plan. | in this repo |
 | [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
 | [seo-and-geo-playbook](../playbooks/04-launch/seo-and-geo-playbook.md) | playbook | Classic SEO plus GEO/AEO for AI answer engines in 2026 - what is evidenced versus speculative, content strategy for a new site, measurement and a 90-day plan. | in this repo |
 | [anthropic-skills](https://github.com/anthropics/skills) | external | Anthropic's reference skills (documents, spreadsheets, presentations, PDFs). | none-reported; 192,876 stars; link-only (not installable here) |
@@ -29,6 +30,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [pitch-deck-builder](../skills/pitch-deck-builder/) | skill | Slide-by-slide deck plan with an evidence checklist, Q&A prep and a data-room checklist by stage. | in this repo |
 | [pptx-deck-creation](https://github.com/wshobson/agents) | external | Spec-first workflow for editable, production-ready PowerPoint decks. | MIT; 42,414 stars; has helper scripts |
 
 ## Install

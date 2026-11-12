@@ -20,6 +20,9 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [fundraising-round-planner](../skills/fundraising-round-planner/) | skill | Compares SAFEs, notes and priced rounds, runs illustrative dilution math with the founder's numbers, and lays out the process timeline and lawyer questions. | in this repo |
+| [investor-research-pipeline](../skills/investor-research-pipeline/) | skill | Fit test for raising at all, then a scored 30-60 name investor target list built from public sources, with a tracker and outreach batching plan. | in this repo |
+| [pitch-deck-builder](../skills/pitch-deck-builder/) | skill | Slide-by-slide deck plan with an evidence checklist, Q&A prep and a data-room checklist by stage. | in this repo |
 | [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
 | [investor-landscape-and-approach](../playbooks/05-raise/investor-landscape-and-approach.md) | playbook | Who funds early-stage startups, whether to raise at all, how to research investors from public sources and how to approach them. | in this repo |
 | [pitch-deck-and-data-room](../playbooks/05-raise/pitch-deck-and-data-room.md) | playbook | Pitch deck frameworks compared, a recommended slide order for a solo founder, the short live pitch, Q&A prep and data-room contents by stage. | in this repo |

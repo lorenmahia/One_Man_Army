@@ -15,6 +15,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [company-setup-navigator](../skills/company-setup-navigator/) | skill | Walks the entity and jurisdiction decision, names the official registries to confirm with, and covers banking, tax triggers and finance operations. Not legal or tax advice. | in this repo |
 | [company-setup-banking-and-tax](../playbooks/02-foundation/company-setup-banking-and-tax.md) | playbook | A decision method for entity and jurisdiction with worked official-source examples, banking and payments, tax-registration triggers and finance operations. | in this repo |
 | [finance-skills](https://github.com/alirezarezvani/claude-skills) | external | Financial analyst skills: ratios, DCF valuation, budgeting and forecasting. | MIT; 29,633 stars; has helper scripts |
 
@@ -28,6 +29,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [fundraising-round-planner](../skills/fundraising-round-planner/) | skill | Compares SAFEs, notes and priced rounds, runs illustrative dilution math with the founder's numbers, and lays out the process timeline and lawyer questions. | in this repo |
 | [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
 
 ### 06-operate Operate
