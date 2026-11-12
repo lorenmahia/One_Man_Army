@@ -12,5 +12,6 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [hiring-and-scaling-planner](../skills/hiring-and-scaling-planner/) | skill | Hire, contract or automate decision with loaded-cost math, structured hiring and onboarding plan, systems before headcount and an expansion gate. | in this repo |
 | [hiring-and-scaling-systems](../playbooks/07-scale/hiring-and-scaling-systems.md) | playbook | When and how to make the first hires, systems before headcount, AI agents as leverage, new-market entry and the classic scaling failures. | in this repo |
 

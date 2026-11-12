@@ -13,6 +13,9 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+| [go-to-market-planner](../skills/go-to-market-planner/) | skill | ICP and beachhead choice, positioning canvas, pricing approach, channel shortlist, first-10-customers plan and a go / adjust / stop gate. | in this repo |
+| [network-builder](../skills/network-builder/) | skill | Stakeholder map and community shortlist from public professional information, outreach cadence, advisor norms and partnership pilot structure. | in this repo |
+| [seo-geo-launch-plan](../skills/seo-geo-launch-plan/) | skill | Technical SEO pass, topic-cluster plan and a GEO/AEO plan that separates evidenced actions from speculation, with measurement and a 90-day plan. | in this repo |
 | [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
 | [networking-communities-and-partnerships](../playbooks/04-launch/networking-communities-and-partnerships.md) | playbook | Building a network from scratch - stakeholder mapping, communities, outreach craft and anti-spam rules, advisors and equity norms, partnerships and press. | in this repo |
 | [seo-and-geo-playbook](../playbooks/04-launch/seo-and-geo-playbook.md) | playbook | Classic SEO plus GEO/AEO for AI answer engines in 2026 - what is evidenced versus speculative, content strategy for a new site, measurement and a 90-day plan. | in this repo |

@@ -9,6 +9,7 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
+| [validation-experiment-planner](../skills/validation-experiment-planner/) | skill | Ranks demand tests by evidence strength, sets success and failure thresholds before running anything, and applies small-sample interval guidance and a go / adjust / stop gate. | in this repo |
 | [validation-and-experiment-design](../playbooks/01-validate/validation-and-experiment-design.md) | playbook | Why startups fail, customer-discovery and demand-test methods ranked by evidence strength, small-sample experiment design and the go / adjust / stop gate. | in this repo |
 
 ### 04-launch Launch
@@ -16,6 +17,8 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+| [go-to-market-planner](../skills/go-to-market-planner/) | skill | ICP and beachhead choice, positioning canvas, pricing approach, channel shortlist, first-10-customers plan and a go / adjust / stop gate. | in this repo |
+| [network-builder](../skills/network-builder/) | skill | Stakeholder map and community shortlist from public professional information, outreach cadence, advisor norms and partnership pilot structure. | in this repo |
 | [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
 | [networking-communities-and-partnerships](../playbooks/04-launch/networking-communities-and-partnerships.md) | playbook | Building a network from scratch - stakeholder mapping, communities, outreach craft and anti-spam rules, advisors and equity norms, partnerships and press. | in this repo |
 | [business-growth-skills](https://github.com/alirezarezvani/claude-skills) | external | Customer success, sales engineering and revenue operations. | MIT; 29,633 stars; has helper scripts |

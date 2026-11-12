@@ -20,6 +20,7 @@
 | [country-business-research](../skills/country-business-research/) | skill | Sourced country market report, demand verdict, six stakeholder viewpoints, key people and a dated project board. | in this repo |
 | [customer-discovery-interviews](../skills/customer-discovery-interviews/) | skill | Interview guides and a go / adjust / stop gate to test demand and price before building. | in this repo |
 | [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
+| [validation-experiment-planner](../skills/validation-experiment-planner/) | skill | Ranks demand tests by evidence strength, sets success and failure thresholds before running anything, and applies small-sample interval guidance and a go / adjust / stop gate. | in this repo |
 | [validation-and-experiment-design](../playbooks/01-validate/validation-and-experiment-design.md) | playbook | Why startups fail, customer-discovery and demand-test methods ranked by evidence strength, small-sample experiment design and the go / adjust / stop gate. | in this repo |
 | [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 
@@ -27,6 +28,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [go-to-market-planner](../skills/go-to-market-planner/) | skill | ICP and beachhead choice, positioning canvas, pricing approach, channel shortlist, first-10-customers plan and a go / adjust / stop gate. | in this repo |
 | [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
 
 ### 05-raise Raise
@@ -40,6 +42,7 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
+| [operating-rhythm-setup](../skills/operating-rhythm-setup/) | skill | Sets up quarterly OKRs, a short weekly review, a monthly investor update, a decision log and a risk register with kill criteria. | in this repo |
 | [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
 | [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
@@ -50,6 +53,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [hiring-and-scaling-planner](../skills/hiring-and-scaling-planner/) | skill | Hire, contract or automate decision with loaded-cost math, structured hiring and onboarding plan, systems before headcount and an expansion gate. | in this repo |
 | [hiring-and-scaling-systems](../playbooks/07-scale/hiring-and-scaling-systems.md) | playbook | When and how to make the first hires, systems before headcount, AI agents as leverage, new-market entry and the classic scaling failures. | in this repo |
 
 ## Install

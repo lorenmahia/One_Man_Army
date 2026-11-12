@@ -21,7 +21,9 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [ci-cd-bootstrap](../skills/ci-cd-bootstrap/) | skill | Designs a staged CI/CD adoption plan for the founder's stack with SHA-pinned actions, least-privilege tokens, OIDC and DORA tracking. | in this repo |
 | [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
+| [security-baseline-audit](../skills/security-baseline-audit/) | skill | Scores the founder's setup against ten baseline security controls and produces a prioritised fix list, a minimal policy set and a one-page incident runbook. | in this repo |
 | [cicd-and-release-pipeline](../playbooks/03-build/cicd-and-release-pipeline.md) | playbook | A Fortune-500-grade, solo-sized CI/CD pipeline - stages, SHA-pinned GitHub Actions, OIDC, releases, rollback, DORA metrics and a staged adoption plan. | in this repo |
 | [security-and-secrets-baseline](../playbooks/03-build/security-and-secrets-baseline.md) | playbook | Threat model, the first ten controls, secrets handling, agent and plugin risks, the SOC 2 / privacy ladder and a one-person incident runbook. | in this repo |
 | [awesome-saas-boilerplates](https://github.com/xcomptek/awesome-saas-boilerplates) | external | List of SaaS boilerplates and starter kits. | none-reported; 3,086 stars; link-only (not installable here) |

@@ -12,7 +12,9 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [company-setup-navigator](../skills/company-setup-navigator/) | skill | Walks the entity and jurisdiction decision, names the official registries to confirm with, and covers banking, tax triggers and finance operations. Not legal or tax advice. | in this repo |
 | [data-protection-readiness](../skills/data-protection-readiness/) | skill | Country-specific data-controller registration, consent, retention and breach-response checklist. | in this repo |
+| [legal-foundations-checklist](../skills/legal-foundations-checklist/) | skill | Status checklist for founder equity and vesting, IP assignment, trademarks, first contracts and worker classification, with questions for a startup lawyer. Not legal advice. | in this repo |
 | [company-setup-banking-and-tax](../playbooks/02-foundation/company-setup-banking-and-tax.md) | playbook | A decision method for entity and jurisdiction with worked official-source examples, banking and payments, tax-registration triggers and finance operations. | in this repo |
 | [contracts-ip-and-equity](../playbooks/02-foundation/contracts-ip-and-equity.md) | playbook | Founder equity and vesting, IP assignment, trademarks, the contracts a startup needs first, worker classification and questions to bring to a lawyer. | in this repo |
 | [compliance-os](https://github.com/alirezarezvani/claude-skills) | external | Meta-orchestrator for multi-framework compliance programmes. | MIT; 29,633 stars; has helper scripts |

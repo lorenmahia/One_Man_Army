@@ -15,6 +15,7 @@
 | [artifact-project-dashboard](../skills/artifact-project-dashboard/) | skill | Private one-page project dashboard driven by a single JSON block. | in this repo |
 | [deadline-calendar-sync](../skills/deadline-calendar-sync/) | skill | All-day calendar deadlines linked to the document or card they belong to. | in this repo |
 | [long-form-report-builder](../skills/long-form-report-builder/) | skill | Staged, sourced long documents: outline, research, fill, verify. | in this repo |
+| [operating-rhythm-setup](../skills/operating-rhythm-setup/) | skill | Sets up quarterly OKRs, a short weekly review, a monthly investor update, a decision log and a risk register with kill criteria. | in this repo |
 | [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
 | [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
