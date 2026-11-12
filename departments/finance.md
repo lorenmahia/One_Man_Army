@@ -8,8 +8,8 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
-| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 | [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
+| [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 
 ### 02-foundation Foundation
 
@@ -22,6 +22,12 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [commercial-skills](https://github.com/alirezarezvani/claude-skills) | external | Per-deal commercial skills including pricing strategy. | MIT; 29,633 stars; has helper scripts |
+
+### 05-raise Raise
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
 
 ### 06-operate Operate
 

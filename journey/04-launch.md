@@ -12,6 +12,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
 | [anthropic-skills](https://github.com/anthropics/skills) | external | Anthropic's reference skills (documents, spreadsheets, presentations, PDFs). | none-reported; 192,876 stars; link-only (not installable here) |
 | [awesome-seo](https://github.com/i365dev/awesome-seo) | external | Curated SEO, GEO and AI-search resources. | MIT; 2,852 stars; link-only (not installable here) |
 | [brand-landingpage](https://github.com/wshobson/agents) | external | Brand discovery through iterative design to a deployment-ready landing page. | MIT; 42,414 stars |
@@ -23,7 +24,6 @@
 | [seo-analysis-monitoring](https://github.com/wshobson/agents) | external | Content freshness, cannibalization detection and authority building. | MIT; 42,414 stars |
 | [seo-content-creation](https://github.com/wshobson/agents) | external | SEO content writing, planning and E-E-A-T quality auditing. | MIT; 42,414 stars |
 | [seo-technical-optimization](https://github.com/wshobson/agents) | external | Technical SEO: meta tags, keywords, structure and featured snippets. | MIT; 42,414 stars |
-| [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
 
 ## Install
 

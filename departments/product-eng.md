@@ -21,6 +21,7 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
 | [awesome-saas-boilerplates](https://github.com/xcomptek/awesome-saas-boilerplates) | external | List of SaaS boilerplates and starter kits. | none-reported; 3,086 stars; link-only (not installable here) |
 | [cicd-automation](https://github.com/wshobson/agents) | external | CI/CD pipeline configuration, GitHub Actions workflows and automated deployment. | MIT; 42,414 stars |
 | [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | external | Anthropic-managed directory of Claude Code plugins. | Apache-2.0; 46,860 stars; link-only (not installable here) |
@@ -31,7 +32,6 @@
 | [security-scanning](https://github.com/wshobson/agents) | external | SAST, dependency vulnerability scanning and OWASP Top 10 checks. | MIT; 42,414 stars |
 | [superpowers](https://github.com/obra/superpowers) | external | Agentic skills framework and development methodology (plan, TDD, review). | MIT; 316,068 stars; **REVIEW: includes hooks** |
 | [voltagent-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | external | 100+ specialised Claude Code subagents. | MIT; 26,484 stars; link-only (not installable here) |
-| [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
 
 ## Install
 

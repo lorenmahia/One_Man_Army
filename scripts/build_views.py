@@ -29,7 +29,8 @@ def link(entry, base):
     prefix = "../" * len(Path(base).parts)
     if entry["kind"] == "external":
         return f"[{entry['id']}](https://github.com/{entry['source']})"
-    return f"[{entry['id']}]({prefix}{entry['path']}/)"
+    slash = "/" if entry["kind"] == "skill" else ""  # skills are folders; playbooks/templates are files
+    return f"[{entry['id']}]({prefix}{entry['path']}{slash})"
 
 
 MARKET = "one-man-army"
@@ -60,7 +61,8 @@ def table(entries, base):
     if not entries:
         return "_Nothing registered yet._\n"
     lines = ["| Name | Kind | What it does | Notes |", "|---|---|---|---|"]
-    lines += [row(e, base) for e in sorted(entries, key=lambda e: (e["kind"], e["id"]))]
+    order = {"skill": 0, "playbook": 1, "agent": 2, "template": 3, "external": 4}  # in-repo work first
+    lines += [row(e, base) for e in sorted(entries, key=lambda e: (order.get(e["kind"], 9), e["id"]))]
     return "\n".join(lines) + "\n"
 
 
