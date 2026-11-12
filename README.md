@@ -137,3 +137,7 @@ docs/                    # ARCHITECTURE.md, CONTRIBUTING.md
 - **Claude.ai / Desktop:** zip the skill folder and upload it under **Settings → Capabilities → Skills**.
 
 Skills load automatically when a request matches their description; you don't need to name them.
+
+## License
+
+[MIT](./LICENSE). This covers the skills, playbooks, templates, agents and scripts written in this repository. The third-party plugins listed in the marketplace are **not** part of this repository and keep their own licences, which the [registry](./registry/registry.yaml) records for each one.
