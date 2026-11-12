@@ -31,6 +31,7 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [pitch-deck-builder](../skills/pitch-deck-builder/) | skill | Slide-by-slide deck plan with an evidence checklist, Q&A prep and a data-room checklist by stage. | in this repo |
+| [pitch-deck-outline](../templates/pitch-deck-outline.md) | template | Recommended solo-founder slide order with the question each slide answers and the evidence to include. | in this repo |
 | [pptx-deck-creation](https://github.com/wshobson/agents) | external | Spec-first workflow for editable, production-ready PowerPoint decks. | MIT; 42,414 stars; has helper scripts |
 
 ## Install

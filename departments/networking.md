@@ -24,4 +24,5 @@
 |---|---|---|---|
 | [investor-research-pipeline](../skills/investor-research-pipeline/) | skill | Fit test for raising at all, then a scored 30-60 name investor target list built from public sources, with a tracker and outreach batching plan. | in this repo |
 | [investor-landscape-and-approach](../playbooks/05-raise/investor-landscape-and-approach.md) | playbook | Who funds early-stage startups, whether to raise at all, how to research investors from public sources and how to approach them. | in this repo |
+| [investor-target-list](../templates/investor-target-list.md) | template | Columns and scoring rubric for a 30-60 name investor target list built from public sources, with pipeline stages. | in this repo |
 
