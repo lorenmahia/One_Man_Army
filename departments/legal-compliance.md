@@ -31,6 +31,9 @@
 | [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
 | [security-baseline-audit](../skills/security-baseline-audit/) | skill | Scores the founder's setup against ten baseline security controls and produces a prioritised fix list, a minimal policy set and a one-page incident runbook. | in this repo |
 | [security-and-secrets-baseline](../playbooks/03-build/security-and-secrets-baseline.md) | playbook | Threat model, the first ten controls, secrets handling, agent and plugin risks, the SOC 2 / privacy ladder and a one-person incident runbook. | in this repo |
+| [pipeline-reviewer](../agents/pipeline-reviewer.md) | agent | Reviews CI/CD workflows and release process against the playbooks - unpinned actions, broad permissions, long-lived keys, missing rollback. Read-only. | in this repo |
+| [incident-runbook](../templates/incident-runbook.md) | template | One-page runbook for a one-person company - detect, contain, rotate, assess, notify, learn. | in this repo |
+| [minimal-security-policies](../templates/minimal-security-policies.md) | template | Minimal policy set as short outlines - access, secrets, devices, backup, incident, vendors and AI/agent use. | in this repo |
 | [security-scanning](https://github.com/wshobson/agents) | external | SAST, dependency vulnerability scanning and OWASP Top 10 checks. | MIT; 42,414 stars |
 
 ### 05-raise Raise
@@ -38,6 +41,13 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
+| [data-room-checklist](../templates/data-room-checklist.md) | template | Data-room folder structure and checklist by stage with a status column. | in this repo |
+
+### 06-operate Operate
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [risk-register](../templates/risk-register.md) | template | Risk register with likelihood, impact, mitigation, owner, review date and kill criteria, including a key-person row. | in this repo |
 
 ## Install
 

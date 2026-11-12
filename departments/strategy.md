@@ -22,6 +22,7 @@
 | [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
 | [validation-experiment-planner](../skills/validation-experiment-planner/) | skill | Ranks demand tests by evidence strength, sets success and failure thresholds before running anything, and applies small-sample interval guidance and a go / adjust / stop gate. | in this repo |
 | [validation-and-experiment-design](../playbooks/01-validate/validation-and-experiment-design.md) | playbook | Why startups fail, customer-discovery and demand-test methods ranked by evidence strength, small-sample experiment design and the go / adjust / stop gate. | in this repo |
+| [experiment-log](../templates/experiment-log.md) | template | Hypothesis, success and failure thresholds written before the test, sample, result and go / adjust / stop decision. | in this repo |
 | [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 
 ### 04-launch Launch
@@ -45,6 +46,8 @@
 | [operating-rhythm-setup](../skills/operating-rhythm-setup/) | skill | Sets up quarterly OKRs, a short weekly review, a monthly investor update, a decision log and a risk register with kill criteria. | in this repo |
 | [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
+| [decision-log](../templates/decision-log.md) | template | Lightweight decision record - context, options, decision, expected outcome and review date. | in this repo |
+| [okr-sheet](../templates/okr-sheet.md) | template | Objectives and key results with baseline, target, score and confidence, plus illustrative pre-revenue and revenue-stage examples. | in this repo |
 | [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |
 | [c-level-skills](https://github.com/alirezarezvani/claude-skills) | external | 33 C-level advisory skills. | MIT; 29,633 stars; **REVIEW: includes hooks** |
 | [research-ops-skills](https://github.com/alirezarezvani/claude-skills) | external | Cross-functional research operations. | MIT; 29,633 stars; has helper scripts |

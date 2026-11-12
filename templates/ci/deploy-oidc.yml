@@ -1,0 +1,56 @@
+# .github/workflows/deploy.yml
+#
+# SKETCH ONLY. This file has NOT been run.
+# - Every `<FULL_40_CHAR_SHA>` must be replaced by a full 40-character commit
+#   SHA that YOU look up and verify from the action's ORIGINAL repository
+#   (not a fork). The version comments (`# vX.Y.Z`) are placeholders too.
+# - Placeholders in CAPS (ROLE-TO-ASSUME, AWS-REGION, ENVIRONMENT-NAME) must be
+#   replaced. The example uses AWS; for another cloud use its own credentials
+#   action and trust setup.
+# - Check the current GitHub docs for job-level `environment:` syntax and your
+#   cloud provider's OIDC trust-policy conditions (`aud` and `sub`) before use.
+#   The `sub` claim format depends on your repository; match your trust policy.
+# - GitHub environments with required reviewers may need a paid plan for
+#   private repositories. As a solo founder, leave "prevent self-review" off
+#   or you cannot approve your own deploys; use a wait timer and tag/branch
+#   restrictions instead.
+#
+# Design (from the CI/CD playbook): triggered by a version tag; `id-token: write`
+# is granted ONLY on the deploy job; secrets and the cloud role are scoped to a
+# protected environment; no long-lived cloud keys are stored.
+
+name: deploy
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read   # workflow default: read-only
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false   # never cancel a deploy half-way
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: ENVIRONMENT-NAME   # e.g. production; holds scoped secrets and protection rules
+    permissions:
+      id-token: write   # only lets this job request an OIDC token
+      contents: read    # required for checkout
+    steps:
+      - uses: actions/checkout@<FULL_40_CHAR_SHA>   # vX.Y.Z (look up and verify)
+
+      - uses: aws-actions/configure-aws-credentials@<FULL_40_CHAR_SHA>   # vX.Y.Z (look up and verify)
+        with:
+          role-to-assume: ROLE-TO-ASSUME
+          aws-region: AWS-REGION
+
+      - name: Deploy (PLACEHOLDER)
+        run: echo "replace with your deploy command; deploy the same artifact CI built"
+
+      - name: Smoke test (PLACEHOLDER)
+        run: echo "replace with a health check; document the rollback in your runbook"

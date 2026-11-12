@@ -1,0 +1,48 @@
+# .github/workflows/ci.yml
+#
+# SKETCH ONLY. This file has NOT been run.
+# - Every `<FULL_40_CHAR_SHA>` must be replaced by a full 40-character commit
+#   SHA that YOU look up and verify from the action's ORIGINAL repository
+#   (not a fork). The version comments (`# vX.Y.Z`) are placeholders too.
+# - The lint/test/build steps are placeholders; replace them with your commands.
+# - Check the current GitHub Actions workflow-syntax docs before use.
+#
+# Design (from the CI/CD playbook): read-only token permissions, actions pinned
+# by commit SHA, and concurrency that cancels superseded runs on the same ref.
+
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read   # least privilege: read-only token
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true   # cancel superseded runs on the same ref
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@<FULL_40_CHAR_SHA>   # vX.Y.Z (look up and verify)
+
+      # PLACEHOLDER: set up your language runtime with a SHA-pinned action, e.g.
+      # - uses: actions/setup-node@<FULL_40_CHAR_SHA>   # vX.Y.Z (look up and verify)
+
+      - name: Lint (PLACEHOLDER)
+        run: echo "replace with your lint command"
+
+      - name: Test (PLACEHOLDER)
+        run: echo "replace with your test command"
+
+      - name: Build (PLACEHOLDER)
+        run: echo "replace with your build command"
+
+      # OPTIONAL PLACEHOLDER: secret scanner and dependency/SAST step.
+      # - name: Secret scan (PLACEHOLDER)
+      #   run: echo "replace with your scanner command"

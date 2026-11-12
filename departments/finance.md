@@ -31,12 +31,14 @@
 |---|---|---|---|
 | [fundraising-round-planner](../skills/fundraising-round-planner/) | skill | Compares SAFEs, notes and priced rounds, runs illustrative dilution math with the founder's numbers, and lays out the process timeline and lawyer questions. | in this repo |
 | [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
+| [investor-diligence-reviewer](../agents/investor-diligence-reviewer.md) | agent | Reviews a deck outline, data room, cap-table summary and fundraising plan for gaps and red flags, and recomputes the arithmetic. Read-only. | in this repo |
 
 ### 06-operate Operate
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
+| [startup-finance-reviewer](../agents/startup-finance-reviewer.md) | agent | Reviews unit economics, runway, OKRs and investor updates - labelled assumptions, arithmetic, vanity metrics, buried bad news. Read-only. | in this repo |
 | [business-analytics](https://github.com/wshobson/agents) | external | Business metrics, KPI tracking and financial reporting. | MIT; 42,414 stars |
 
 ## Install

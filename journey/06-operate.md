@@ -19,6 +19,12 @@
 | [recurring-research-digest](../skills/recurring-research-digest/) | skill | A standing research report; one new sourced item per run, never repeated. | in this repo |
 | [scheduled-artifact-refresh](../skills/scheduled-artifact-refresh/) | skill | Scheduled task that refreshes only a page's data block, validates and republishes it. | in this repo |
 | [operating-cadences-okrs-and-reporting](../playbooks/06-operate/operating-cadences-okrs-and-reporting.md) | playbook | Large-company management systems scaled to one person - OKRs, operating rhythm, KPIs, investor and board reporting, decision logs and risk registers. | in this repo |
+| [startup-finance-reviewer](../agents/startup-finance-reviewer.md) | agent | Reviews unit economics, runway, OKRs and investor updates - labelled assumptions, arithmetic, vanity metrics, buried bad news. Read-only. | in this repo |
+| [decision-log](../templates/decision-log.md) | template | Lightweight decision record - context, options, decision, expected outcome and review date. | in this repo |
+| [investor-update](../templates/investor-update.md) | template | Monthly investor update (metrics, asks, recap) with a bad-month variant that leads with the miss, runway and plan. | in this repo |
+| [okr-sheet](../templates/okr-sheet.md) | template | Objectives and key results with baseline, target, score and confidence, plus illustrative pre-revenue and revenue-stage examples. | in this repo |
+| [risk-register](../templates/risk-register.md) | template | Risk register with likelihood, impact, mitigation, owner, review date and kill criteria, including a key-person row. | in this repo |
+| [weekly-business-review](../templates/weekly-business-review.md) | template | Five-to-ten metric weekly review layout with a time box. | in this repo |
 | [business-analytics](https://github.com/wshobson/agents) | external | Business metrics, KPI tracking and financial reporting. | MIT; 42,414 stars |
 | [business-operations-skills](https://github.com/alirezarezvani/claude-skills) | external | BizOps: process mapping, bottleneck analysis and operating cadences. | MIT; 29,633 stars; has helper scripts |
 | [c-level-agents](https://github.com/alirezarezvani/claude-skills) | external | 13 C-suite agents (CFO, CMO, CRO, CPO, COO, CISO and more). | MIT; 29,633 stars |

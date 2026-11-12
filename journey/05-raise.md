@@ -18,6 +18,10 @@
 | [instruments-terms-and-process](../playbooks/05-raise/instruments-terms-and-process.md) | playbook | SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline. | in this repo |
 | [investor-landscape-and-approach](../playbooks/05-raise/investor-landscape-and-approach.md) | playbook | Who funds early-stage startups, whether to raise at all, how to research investors from public sources and how to approach them. | in this repo |
 | [pitch-deck-and-data-room](../playbooks/05-raise/pitch-deck-and-data-room.md) | playbook | Pitch deck frameworks compared, a recommended slide order for a solo founder, the short live pitch, Q&A prep and data-room contents by stage. | in this repo |
+| [investor-diligence-reviewer](../agents/investor-diligence-reviewer.md) | agent | Reviews a deck outline, data room, cap-table summary and fundraising plan for gaps and red flags, and recomputes the arithmetic. Read-only. | in this repo |
+| [data-room-checklist](../templates/data-room-checklist.md) | template | Data-room folder structure and checklist by stage with a status column. | in this repo |
+| [investor-target-list](../templates/investor-target-list.md) | template | Columns and scoring rubric for a 30-60 name investor target list built from public sources, with pipeline stages. | in this repo |
+| [pitch-deck-outline](../templates/pitch-deck-outline.md) | template | Recommended solo-founder slide order with the question each slide answers and the evidence to include. | in this repo |
 | [pptx-deck-creation](https://github.com/wshobson/agents) | external | Spec-first workflow for editable, production-ready PowerPoint decks. | MIT; 42,414 stars; has helper scripts |
 
 ## Install

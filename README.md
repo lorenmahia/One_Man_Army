@@ -35,7 +35,8 @@ That installs the skills in this repo. The same marketplace also lists **31 pinn
 - [x] Build and Launch playbooks: [CI/CD and release](./playbooks/03-build/cicd-and-release-pipeline.md), [security and secrets baseline](./playbooks/03-build/security-and-secrets-baseline.md), [SEO and GEO](./playbooks/04-launch/seo-and-geo-playbook.md), [go-to-market and first customers](./playbooks/04-launch/go-to-market-and-first-customers.md)
 - [x] Remaining stage playbooks: [validation and experiments](./playbooks/01-validate/validation-and-experiment-design.md), [company setup, banking and tax](./playbooks/02-foundation/company-setup-banking-and-tax.md), [contracts, IP and equity](./playbooks/02-foundation/contracts-ip-and-equity.md), [networking and partnerships](./playbooks/04-launch/networking-communities-and-partnerships.md), [operating cadences and reporting](./playbooks/06-operate/operating-cadences-okrs-and-reporting.md), [hiring and scaling](./playbooks/07-scale/hiring-and-scaling-systems.md)
 - [x] 13 skills distilled from the playbooks (below), each pointing back to its playbook for the evidence
-- [ ] Agents (for example a virtual CFO/CMO) and ready-to-copy templates (deck outline, data-room checklist, OKR sheet, CI starters)
+- [x] [13 ready-to-copy templates](./templates/README.md) and 3 read-only reviewer agents (below)
+- [ ] Next: run the whole path with a real founder, fix what breaks, and re-verify the dated figures in the playbooks on a schedule
 
 ## Skills
 
@@ -96,6 +97,12 @@ Each of these runs a playbook with you: it asks a round of questions, applies th
 | 06 Operate | [operating-rhythm-setup](./skills/operating-rhythm-setup/) | Quarterly OKRs, short weekly review, monthly investor update, decision log, risk register with kill criteria. |
 | 07 Scale | [hiring-and-scaling-planner](./skills/hiring-and-scaling-planner/) | Hire / contract / automate decision, loaded-cost math, structured hiring, systems before headcount, expansion gate. |
 
+### Templates and reviewer agents
+
+- **[Templates](./templates/README.md):** pitch deck outline, data-room checklist, investor target list, OKR sheet, weekly review, investor update, risk register, decision log, experiment log, incident runbook, minimal security policies, and two CI/CD workflow sketches. Starting points only; the playbooks carry the evidence. The workflow sketches have **not been run** and use `<FULL_40_CHAR_SHA>` placeholders you must look up and verify.
+- **Reviewer agents** (read-only; tools limited to Read, Grep and Glob, so they cannot edit files or run commands):
+  [investor-diligence-reviewer](./agents/investor-diligence-reviewer.md), [pipeline-reviewer](./agents/pipeline-reviewer.md), [startup-finance-reviewer](./agents/startup-finance-reviewer.md).
+
 ## How they fit together
 
 ```
@@ -117,6 +124,8 @@ skills/<skill-name>/
   SKILL.md               # instructions Claude follows (YAML frontmatter: name, description)
   README.md              # human overview: when to use, outputs, install
 playbooks/<stage>/       # sourced, dated research briefs (facts vs estimates vs inference, open questions)
+templates/               # ready-to-copy documents and CI sketches distilled from the playbooks
+agents/                  # read-only reviewer subagents
 journey/  departments/   # GENERATED views of the registry (do not edit by hand)
 scripts/                 # build_views.py, validate.py
 docs/                    # ARCHITECTURE.md, CONTRIBUTING.md
