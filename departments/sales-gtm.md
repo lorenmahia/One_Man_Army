@@ -15,6 +15,7 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [founder-outreach-drafts](../skills/founder-outreach-drafts/) | skill | Short outreach messages in the founder's voice with one clear ask; drafts only. | in this repo |
+| [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
 | [business-growth-skills](https://github.com/alirezarezvani/claude-skills) | external | Customer success, sales engineering and revenue operations. | MIT; 29,633 stars; has helper scripts |
 | [commercial-skills](https://github.com/alirezarezvani/claude-skills) | external | Per-deal commercial skills including pricing strategy. | MIT; 29,633 stars; has helper scripts |
 | [content-marketing](https://github.com/wshobson/agents) | external | Content marketing strategy, web research and synthesis. | MIT; 42,414 stars |

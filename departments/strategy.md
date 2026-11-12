@@ -22,6 +22,12 @@
 | [unit-economics-model](../skills/unit-economics-model/) | skill | Per-unit and annual economics, break-even, capital needs and sensitivity cases. | in this repo |
 | [startup-business-analyst](https://github.com/wshobson/agents) | external | Startup business analysis: TAM/SAM/SOM market sizing, financial modeling and unit economics. | MIT; 42,414 stars |
 
+### 04-launch Launch
+
+| Name | Kind | What it does | Notes |
+|---|---|---|---|
+| [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
+
 ### 05-raise Raise
 
 | Name | Kind | What it does | Notes |

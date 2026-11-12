@@ -183,6 +183,38 @@ entries:
     summary: SAFEs, notes and priced rounds compared, key terms, valuation and dilution benchmarks with a worked example, and the fundraising process and timeline.
     last_verified: 2026-11-11
 
+  - id: cicd-and-release-pipeline
+    kind: playbook
+    path: playbooks/03-build/cicd-and-release-pipeline.md
+    stage: 03-build
+    domains: [product-eng, agents-automation]
+    summary: A Fortune-500-grade, solo-sized CI/CD pipeline - stages, SHA-pinned GitHub Actions, OIDC, releases, rollback, DORA metrics and a staged adoption plan.
+    last_verified: 2026-11-11
+
+  - id: security-and-secrets-baseline
+    kind: playbook
+    path: playbooks/03-build/security-and-secrets-baseline.md
+    stage: 03-build
+    domains: [product-eng, legal-compliance]
+    summary: Threat model, the first ten controls, secrets handling, agent and plugin risks, the SOC 2 / privacy ladder and a one-person incident runbook.
+    last_verified: 2026-11-11
+
+  - id: seo-and-geo-playbook
+    kind: playbook
+    path: playbooks/04-launch/seo-and-geo-playbook.md
+    stage: 04-launch
+    domains: [brand-seo]
+    summary: Classic SEO plus GEO/AEO for AI answer engines in 2026 - what is evidenced versus speculative, content strategy for a new site, measurement and a 90-day plan.
+    last_verified: 2026-11-11
+
+  - id: go-to-market-and-first-customers
+    kind: playbook
+    path: playbooks/04-launch/go-to-market-and-first-customers.md
+    stage: 04-launch
+    domains: [sales-gtm, strategy, brand-seo]
+    summary: ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate.
+    last_verified: 2026-11-11
+
   # ---- External references: pinned to a commit SHA, never copied (see docs/EXTERNAL-REVIEW.md) ----
 
   - id: before-you-build

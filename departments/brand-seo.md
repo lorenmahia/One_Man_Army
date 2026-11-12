@@ -14,6 +14,8 @@
 
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
+| [go-to-market-and-first-customers](../playbooks/04-launch/go-to-market-and-first-customers.md) | playbook | ICP and beachhead choice, positioning, pricing basics, channels by business type, the first 10 customers, launch mechanics and early metrics with a go / adjust / stop gate. | in this repo |
+| [seo-and-geo-playbook](../playbooks/04-launch/seo-and-geo-playbook.md) | playbook | Classic SEO plus GEO/AEO for AI answer engines in 2026 - what is evidenced versus speculative, content strategy for a new site, measurement and a 90-day plan. | in this repo |
 | [anthropic-skills](https://github.com/anthropics/skills) | external | Anthropic's reference skills (documents, spreadsheets, presentations, PDFs). | none-reported; 192,876 stars; link-only (not installable here) |
 | [awesome-seo](https://github.com/i365dev/awesome-seo) | external | Curated SEO, GEO and AI-search resources. | MIT; 2,852 stars; link-only (not installable here) |
 | [brand-landingpage](https://github.com/wshobson/agents) | external | Brand discovery through iterative design to a deployment-ready landing page. | MIT; 42,414 stars |
