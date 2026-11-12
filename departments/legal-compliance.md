@@ -25,6 +25,7 @@
 | Name | Kind | What it does | Notes |
 |---|---|---|---|
 | [secret-exposure-response](../skills/secret-exposure-response/) | skill | Handles pasted API keys and passwords: flag, advise rotation, never use or repeat. | in this repo |
+| [security-and-secrets-baseline](../playbooks/03-build/security-and-secrets-baseline.md) | playbook | Threat model, the first ten controls, secrets handling, agent and plugin risks, the SOC 2 / privacy ladder and a one-person incident runbook. | in this repo |
 | [security-scanning](https://github.com/wshobson/agents) | external | SAST, dependency vulnerability scanning and OWASP Top 10 checks. | MIT; 42,414 stars |
 
 ### 05-raise Raise

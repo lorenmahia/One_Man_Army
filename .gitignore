@@ -1,0 +1,9 @@
+# Crash dumps from Git Bash on Windows
+*.stackdump
+
+# Python
+__pycache__/
+*.pyc
+
+# Local Claude Code worktrees and scratch
+.claude/worktrees/
